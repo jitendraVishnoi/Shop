@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<item item-descriptor-name="product">
+
+	<item property-name="childSKUs">
+		<properties>
+			<property name="color" text-searchable="true" is-dimension="true"
+				default-value="unknown">
+				<translate input="coal" output="black" />
+			</property>
+		</properties>
+	</item>
+
+	<!-- <item is-multi="true" property-name="parentCategories"
+		parent-property="childProducts">
+		<properties>
+			<property default-value="category" autogen-dimension-values="false"
+				name="dimval.spec" is-dimension="false" type="string"
+				wildcard-searchable="true"
+				property-accessor="/atg/commerce/endeca/index/accessor/SpecPropertyAccessor"
+				output-name="product.parentCategory.id" is-non-repository-property="true"
+				text-searchable="true" />
+			<property name="displayName" output-name="parentCategory.displayName"
+				text-searchable="true" />
+		</properties>
+	</item> -->
+</item>

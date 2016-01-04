@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+
+<gsa-template>
+
+	<header>
+		<name>Shop Catalog</name>
+		<author>Jitendra</author>
+	</header>
+
+	<item-descriptor name="sku" xml-combine="append">
+		<table name="shop_sku" type="auxiliary" id-column-name="sku_id">
+			<property name="color" data-type="string" column-name="sku_color"
+				category-resource="categoryPresentation" display-name-resource="color">
+				<attribute name="resourceBundle"
+					value="crs.commerce.CustomCatalogTemplateResources" />
+				<attribute name="propertySortPriority" value="0" />
+			</property>
+		</table>
+	</item-descriptor>
+
+</gsa-template>
