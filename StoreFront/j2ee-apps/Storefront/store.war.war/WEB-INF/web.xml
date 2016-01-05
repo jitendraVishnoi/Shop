@@ -145,6 +145,15 @@
 		<servlet-name>InitSessionServlet</servlet-name>
 		<url-pattern>/init-session</url-pattern>
 	</servlet-mapping>
+	
+	<!-- 
+    Dynamo ELResolver event listener allowing JSTL expressions to refer to 
+    Nucleus component and dynamic bean properties (including repository item properties)   
+  -->
+  <listener>
+    <listener-class>atg.taglib.dspjsp.RegisterELResolverServletContextListener</listener-class>
+  </listener>
+  
 
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
