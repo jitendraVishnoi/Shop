@@ -14,7 +14,7 @@
 			<property name="color" data-type="string" column-name="sku_color"
 				category-resource="categoryPresentation" display-name-resource="color">
 				<attribute name="resourceBundle"
-					value="crs.commerce.CustomCatalogTemplateResources" />
+					value="shop.commerce.CustomCatalogTemplateResources" />
 				<attribute name="propertySortPriority" value="0" />
 			</property>
 		</table>
