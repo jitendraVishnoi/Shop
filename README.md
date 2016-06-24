@@ -1,2 +1,2 @@
 # Shop
-ATG applicaiton implemenation from scrach 
+ATG applicaiton implemenation from scrach !!
