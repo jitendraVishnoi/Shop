@@ -1,0 +1,35 @@
+
+// Description of the build on project level
+println description
+
+task init {
+	println "ATG HOME 			 : $System.env.DYNAMO_HOME"
+	println "JAVA HOME 			 : $System.env.JAVA_HOME"
+	println "Produciton module	 : $productionModules"
+	println "Produciton server	 : $producitonServer"
+	println "Publishing module 	 : $publishingModules"
+	println "Publishing server 	 : $publishingServer"
+	println "Ear locaiton	 	 : $earLocaiton"
+}
+
+
+
+task printVersion {
+	
+	group = printVersionGroup
+	description = printVersionDescription
+	
+	doLast {
+		logger.quiet "$version Shop application"
+	}
+}
+
+task buildProduction(type:Exec) {
+	workingDir = "$System.env.DYNAMO_HOME/bin"
+	commandLine 'cmd', '/c', "runAssembler.bat -server $producitonServer $earLocaiton/$producitonServer$earExt -m $productionModules"
+}
+
+task buildPublishing(type:Exec) {
+	workingDir = "$System.env.DYNAMO_HOME/bin"
+	commandLine 'cmd', '/c', "runAssembler.bat -server $publishingServer $earLocaiton/$publishingServer$earExt -m $publishingModules"
+}
