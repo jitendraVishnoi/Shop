@@ -9,7 +9,7 @@
 		<author>Jitendra</author>
 	</header>
 
-	<item-descriptor name="sku" xml-combine="append">
+	<!-- <item-descriptor name="sku" xml-combine="append">
 		<table name="shop_sku" type="auxiliary" id-column-name="sku_id">
 			<property name="color" data-type="string" column-name="sku_color"
 				category-resource="categoryPresentation" display-name-resource="color">
@@ -18,6 +18,6 @@
 				<attribute name="propertySortPriority" value="0" />
 			</property>
 		</table>
-	</item-descriptor>
+	</item-descriptor> -->
 
 </gsa-template>
