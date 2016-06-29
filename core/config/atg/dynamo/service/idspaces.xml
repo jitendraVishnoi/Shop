@@ -3,5 +3,5 @@
 <!DOCTYPE id-spaces SYSTEM "dynamosystemresource:/atg/dtds/idgen/idgenerator_1.0.dtd">
 
 <id-spaces>
-	<id-space batch-size="10000" seed="1" prefix="store" name="store"/>
+	
 </id-spaces>

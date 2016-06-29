@@ -11,8 +11,8 @@ task init {
 	println "Publishing server 	 : $publishingServer"
 	println "Ear locaiton	 	 : $earLocaiton"
 }
-
-
+//setting default task as build, which will trigger both prod and pub build.
+defaultTasks 'build'
 
 task printVersion {
 	
@@ -25,11 +25,23 @@ task printVersion {
 }
 
 task buildProduction(type:Exec) {
+	group = assembleGroup
+	description = assembleProduction
+	
 	workingDir = "$System.env.DYNAMO_HOME/bin"
 	commandLine 'cmd', '/c', "runAssembler.bat -server $producitonServer $earLocaiton/$producitonServer$earExt -m $productionModules"
 }
 
 task buildPublishing(type:Exec) {
+	group = assembleGroup
+	description = assemblePublishing
+	
 	workingDir = "$System.env.DYNAMO_HOME/bin"
 	commandLine 'cmd', '/c', "runAssembler.bat -server $publishingServer $earLocaiton/$publishingServer$earExt -m $publishingModules"
+}
+
+task build(dependsOn : ['buildProduction', 'buildPublishing']) {
+	group = assembleGroup
+	description = assembleAll
+	println "All build done"
 }
