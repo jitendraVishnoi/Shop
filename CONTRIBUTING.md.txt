@@ -1,2 +1,1 @@
-it is test2
-mergeTest1 another comment.
+master is updated after branch had been cut, it non conflicting.
