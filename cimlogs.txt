@@ -1,7 +1,9 @@
 Application Server: jboss
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
 The following installed Oracle Commerce components are being used to launch:
-  ATGPlatform version 11.1 installed at C:\ATG\ATG11.1
+  ATGPlatform version 11.2 installed at C:\ATG\ATG11.2
 
+                                                                                                                                                                                                                    Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
 
 Nucleus running
 
@@ -28,29 +30,31 @@ enter [h]Help, [q]Quit to exit
 Choose the task you want to perform:
 
 
-  [1]  Database Configuration - Done
-  [2]  Configure OPSS Security - Done
-  [3]  Server Instance Configuration - Done
-  [4]  Application Assembly & Deployment - Done
-  [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce Reference Store & Oracle
-Commerce Platform-Guided Search Integration & Oracle Commerce REST & Oracle
-Commerce Site Administration & Content Administration)
-  [A]  Select Application Server - Done (JBoss)
- *[C]  Custom CIM Plugin Launcher
+ *[R]  Set the Administrator Password
+  [W]  Quit without setting password
 
- > 4
+ >
 
--------DEPLOYMENT SERVER INSTANCE SELECTION-------------------------------------
+
+Please enter the value you wish to use as the Administrator password. This
+password will be set for all instances created by the CIM tool. Passwords
+should adhere to the following guidelines...
+
+* passwords should be at least 8 characters long
+
+* passwords should contain at least one upper case and one lowercase character
+
+* passwords should contain at least one numeric character
+
+
+-------RESET ADMINISTRATOR PASSWORD STEP----------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 
-  [P]  Production - Production with a Server Lock Manager - Done
-  [W]  Publishing - Publishing with a Server Lock Manager - Done
- *[D]  Done
+   New Password > ********
 
- >
+   Re-enter the password > ********
 
 =======CIM MAIN MENU============================================================
 enter [h]Help, [q]Quit to exit
@@ -59,44 +63,23 @@ enter [h]Help, [q]Quit to exit
 Choose the task you want to perform:
 
 
-  [1]  Database Configuration - Done
-  [2]  Configure OPSS Security - Done
-  [3]  Server Instance Configuration - Done
-  [4]  Application Assembly & Deployment - Done
-  [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce Reference Store & Oracle
-Commerce Platform-Guided Search Integration & Oracle Commerce REST & Oracle
-Commerce Site Administration & Content Administration)
-  [A]  Select Application Server - Done (JBoss)
- *[C]  Custom CIM Plugin Launcher
+  [R]  Set the Administrator Password - Done (pending database import)
+ *[P]  Product Selection
+  [A]  Select Application Server
+  [C]  Custom CIM Plugin Launcher
 
- > p
+ >
 
 -------ANALYZING PRODUCT DIRECTORIES--------------------------------------------
 
 
 
-Please wait as CIM analyzes your product folders. . . . . . . . . .
+Please wait as CIM analyzes your product folders. . . . . . . . . . . . .
 
-Analysis complete: 7 seconds
-
-
+Analysis complete: 1 seconds
 
 
--------WARNING------------------------------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
 
-
-Changing your product selection may require changes to your configuration.
-Database Configuration, Server Instance Configuration, and Application
-Assembly and Deployment will need to be redone. Are you sure you want to
-continue?
-
-
- *[C]  Continue
-  [A]  Cancel
-
- >
 
 -------PRODUCT SELECTION--------------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -111,31 +94,38 @@ Select product you wish to configure by entering the corresponding item number.
   [1]  Oracle Commerce Platform -
         Includes, optionally, data warehouse components
 
- *[2]  Oracle Commerce REST -
+  [2]  Oracle Commerce REST -
         RESTful Web Services
 
-  [3]  Oracle Commerce WebCenter Sites Extensions -
+  [3]  Oracle Commerce Core Commerce -
+        Includes Commerce Platform and Content Administration. Optional: data
+        warehouse components, Preview and Merchandising UI
+
+  [4]  Oracle Commerce WebCenter Sites Extensions -
         Includes Commerce Platform and Commerce CAS Reader.
 
- *[4]  Oracle Commerce Site Administration -
+  [5]  Oracle Commerce Site Administration -
         Includes Commerce Platform and Content Administration
 
- *[5]  Oracle Commerce Platform-Guided Search Integration -
+  [6]  Oracle Commerce Platform-Guided Search Integration -
         Includes Commerce Platform. Select this option when Commerce Guided
         Search is used.
 
- *[6]  Content Administration -
+  [7]  Content Administration -
         Includes Oracle Commerce Platform.  Optional: Preview
-
-  [7]  Oracle Commerce Core Commerce -
-        Includes Commerce Platform and Content Administration. Optional: data
-        warehouse components, Preview and Merchandising UI
 
   [8]  Oracle Commerce CAS Reader -
         Includes Commerce Platform. Select this option when Commerce Platform
         is used to import data to Commerce CAS.
 
- *[9]  Oracle Commerce Reference Store -
+  [9]  Oracle Commerce Service Center -
+        Agent-facing commerce application
+
+  [10]  Oracle Commerce Store Accelerator -
+        Provides re-useable components, a sample store and code to accelerate
+        development of an Oracle Commerce Store.
+
+  [11]  Oracle Commerce Reference Store -
         Includes the Oracle Commerce Platform, Oracle Commerce
         Platform-Guided Search Integration, Content Administration, Site
         Administration, Core Commerce, and Merchandising. Optional: Data
@@ -143,7 +133,7 @@ Select product you wish to configure by entering the corresponding item number.
 
   [D]  Done
 
-Select one or more > 1 3 7 8 9
+Select one or more > 1 2 3 4 5 6 7 9
 
   Choose one of the following options: (* = Currently selected )
 
@@ -153,28 +143,35 @@ Select one or more > 1 3 7 8 9
  *[2]  Oracle Commerce REST -
         RESTful Web Services
 
- *[3]  Oracle Commerce WebCenter Sites Extensions -
-        Includes Commerce Platform and Commerce CAS Reader.
-
- *[4]  Oracle Commerce Site Administration -
-        Includes Commerce Platform and Content Administration
-
- *[5]  Oracle Commerce Platform-Guided Search Integration -
-        Includes Commerce Platform. Select this option when Commerce Guided
-        Search is used.
-
- *[6]  Content Administration -
-        Includes Oracle Commerce Platform.  Optional: Preview
-
- *[7]  Oracle Commerce Core Commerce -
+ *[3]  Oracle Commerce Core Commerce -
         Includes Commerce Platform and Content Administration. Optional: data
         warehouse components, Preview and Merchandising UI
 
- *[8]  Oracle Commerce CAS Reader -
+ *[4]  Oracle Commerce WebCenter Sites Extensions -
+        Includes Commerce Platform and Commerce CAS Reader.
+
+ *[5]  Oracle Commerce Site Administration -
+        Includes Commerce Platform and Content Administration
+
+ *[6]  Oracle Commerce Platform-Guided Search Integration -
+        Includes Commerce Platform. Select this option when Commerce Guided
+        Search is used.
+
+ *[7]  Content Administration -
+        Includes Oracle Commerce Platform.  Optional: Preview
+
+  [8]  Oracle Commerce CAS Reader -
         Includes Commerce Platform. Select this option when Commerce Platform
         is used to import data to Commerce CAS.
 
-  [9]  Oracle Commerce Reference Store -
+ *[9]  Oracle Commerce Service Center -
+        Agent-facing commerce application
+
+  [10]  Oracle Commerce Store Accelerator -
+        Provides re-useable components, a sample store and code to accelerate
+        development of an Oracle Commerce Store.
+
+  [11]  Oracle Commerce Reference Store -
         Includes the Oracle Commerce Platform, Oracle Commerce
         Platform-Guided Search Integration, Content Administration, Site
         Administration, Core Commerce, and Merchandising. Optional: Data
@@ -208,12 +205,25 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   Choose AddOns :
 
   [1]  Reporting
-  [2]  Staging Server
-  [3]  Dedicated Lock Servers
-  [4]  Single Sign On (SSO)
-  [5]  Preview Server
- *[6]  Merchandising UI
- *[7]  Abandoned Order Services
+  [2]  Dedicated Lock Servers
+  [3]  Single Sign On (SSO)
+  [4]  Staging Server
+  [5]  Merchandising UI
+  [6]  Abandoned Order Services
+  [7]  Preview Server
+  [D]  Done
+
+Select zero or more > 5
+
+  Choose AddOns :
+
+  [1]  Reporting
+  [2]  Dedicated Lock Servers
+  [3]  Single Sign On (SSO)
+  [4]  Staging Server
+ *[5]  Merchandising UI
+  [6]  Abandoned Order Services
+  [7]  Preview Server
   [D]  Done
 
 Select zero or more > d
@@ -239,24 +249,255 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   Choose switching or non-switching datasource :
 
   [1]  Non-Switching Datasource
- *[2]  Switching Datasource
+  [2]  Switching Datasource
 
-Select one >
+Select one > 1
 
--------PUBLISHING MANAGEMENT GROUP----------------------------------------------
+-------CHOOSE COMMERCE SERVICE CENTER ADDONS:-----------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Choose Commerce Service Center Addons:
+
+  [1]  Multi Site
+  [D]  Done
+
+Select zero or more > m
+
+=======CIM MAIN MENU============================================================
+enter [h]Help, [q]Quit to exit
+
+
+Choose the task you want to perform:
+
+
+  [R]  Set the Administrator Password - Done (pending database import)
+ *[P]  Product Selection
+  [A]  Select Application Server
+  [C]  Custom CIM Plugin Launcher
+
+ >
+
+-------ANALYZING PRODUCT DIRECTORIES--------------------------------------------
+
+
+
+Please wait as CIM analyzes your product folders. . . . . . . . . . . . .
+
+Analysis complete: 1 seconds
+
+
+
+
+-------PRODUCT SELECTION--------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Select product you wish to configure by entering the corresponding item number.
+
+
+  Choose one of the following options: (* = Currently selected )
+
+  [1]  Oracle Commerce Platform -
+        Includes, optionally, data warehouse components
+
+  [2]  Oracle Commerce REST -
+        RESTful Web Services
+
+  [3]  Oracle Commerce Core Commerce -
+        Includes Commerce Platform and Content Administration. Optional: data
+        warehouse components, Preview and Merchandising UI
+
+  [4]  Oracle Commerce WebCenter Sites Extensions -
+        Includes Commerce Platform and Commerce CAS Reader.
+
+  [5]  Oracle Commerce Site Administration -
+        Includes Commerce Platform and Content Administration
+
+  [6]  Oracle Commerce Platform-Guided Search Integration -
+        Includes Commerce Platform. Select this option when Commerce Guided
+        Search is used.
+
+  [7]  Content Administration -
+        Includes Oracle Commerce Platform.  Optional: Preview
+
+  [8]  Oracle Commerce CAS Reader -
+        Includes Commerce Platform. Select this option when Commerce Platform
+        is used to import data to Commerce CAS.
+
+  [9]  Oracle Commerce Service Center -
+        Agent-facing commerce application
+
+  [10]  Oracle Commerce Store Accelerator -
+        Provides re-useable components, a sample store and code to accelerate
+        development of an Oracle Commerce Store.
+
+  [11]  Oracle Commerce Reference Store -
+        Includes the Oracle Commerce Platform, Oracle Commerce
+        Platform-Guided Search Integration, Content Administration, Site
+        Administration, Core Commerce, and Merchandising. Optional: Data
+        warehouse components and Preview
+
+  [D]  Done
+
+Select one or more > 1 2 3 4 5 6 7 9
+
+  Choose one of the following options: (* = Currently selected )
+
+ *[1]  Oracle Commerce Platform -
+        Includes, optionally, data warehouse components
+
+ *[2]  Oracle Commerce REST -
+        RESTful Web Services
+
+ *[3]  Oracle Commerce Core Commerce -
+        Includes Commerce Platform and Content Administration. Optional: data
+        warehouse components, Preview and Merchandising UI
+
+ *[4]  Oracle Commerce WebCenter Sites Extensions -
+        Includes Commerce Platform and Commerce CAS Reader.
+
+ *[5]  Oracle Commerce Site Administration -
+        Includes Commerce Platform and Content Administration
+
+ *[6]  Oracle Commerce Platform-Guided Search Integration -
+        Includes Commerce Platform. Select this option when Commerce Guided
+        Search is used.
+
+ *[7]  Content Administration -
+        Includes Oracle Commerce Platform.  Optional: Preview
+
+  [8]  Oracle Commerce CAS Reader -
+        Includes Commerce Platform. Select this option when Commerce Platform
+        is used to import data to Commerce CAS.
+
+ *[9]  Oracle Commerce Service Center -
+        Agent-facing commerce application
+
+  [10]  Oracle Commerce Store Accelerator -
+        Provides re-useable components, a sample store and code to accelerate
+        development of an Oracle Commerce Store.
+
+  [11]  Oracle Commerce Reference Store -
+        Includes the Oracle Commerce Platform, Oracle Commerce
+        Platform-Guided Search Integration, Content Administration, Site
+        Administration, Core Commerce, and Merchandising. Optional: Data
+        warehouse components and Preview
+
+  [D]  Done
+
+Select one or more > d
+
+-------COMMERCE SEARCH----------------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 The following addon(s) have been automatically included for the selected
-product: Publishing Management
+product: Commerce Search
 
 
--------CHOOSE SWITCHING PUBLISHING DATASOURCE :---------------------------------
+-------INCLUDE COMMERCE CAS READER :--------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 The following addon(s) have been automatically included for the selected
-product: Publishing Switching Datasource
+product: Commerce CAS Reader
+
+
+-------CHOOSE ADDONS :----------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Choose AddOns :
+
+  [1]  Reporting
+  [2]  Dedicated Lock Servers
+  [3]  Single Sign On (SSO)
+  [4]  Staging Server
+  [5]  Merchandising UI
+  [6]  Abandoned Order Services
+  [7]  Preview Server
+  [D]  Done
+
+Select zero or more > 5
+
+  Choose AddOns :
+
+  [1]  Reporting
+  [2]  Dedicated Lock Servers
+  [3]  Single Sign On (SSO)
+  [4]  Staging Server
+ *[5]  Merchandising UI
+  [6]  Abandoned Order Services
+  [7]  Preview Server
+  [D]  Done
+
+Select zero or more > d
+
+-------INCLUDE DEMO APPLICATION:------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Include Demo Application:
+
+  [1]  Quincy Funds Demo
+  [2]  MotorPriseJSP
+  [D]  Done
+
+Select zero or one > d
+
+-------CHOOSE SWITCHING OR NON-SWITCHING DATASOURCE :---------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Choose switching or non-switching datasource :
+
+  [1]  Non-Switching Datasource
+  [2]  Switching Datasource
+
+Select one > 2
+
+-------CHOOSE COMMERCE SERVICE CENTER ADDONS:-----------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Choose Commerce Service Center Addons:
+
+  [1]  Multi Site
+  [D]  Done
+
+Select zero or more > 1
+
+  Choose Commerce Service Center Addons:
+
+ *[1]  Multi Site
+  [D]  Done
+
+Select zero or more > d
+
+-------COMMERCE SERVICE CENTER CATALOG SEARCH SELECTION-------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Commerce Service Center Catalog search selection
+
+  [1]  Commerce Catalog Search
+  [2]  RQL-based Catalog Search
+
+Select one > 1
+
+-------ORACLE COMMERCE REST-----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+The following addon(s) have been automatically included for the selected
+product: Oracle Commerce REST
 
 
 -------SITEADMIN ADDONS :-------------------------------------------------------
@@ -274,17 +515,25 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   Commerce Index Type Selection :
 
- *[1]  Index by SKU
+  [1]  Index by SKU
   [2]  Index by Product
 
-Select one >
+Select one > 1
 
--------ORACLE COMMERCE REST-----------------------------------------------------
+-------PUBLISHING MANAGEMENT GROUP----------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 The following addon(s) have been automatically included for the selected
-product: Oracle Commerce REST
+product: Publishing Management
+
+
+-------CHOOSE SWITCHING PUBLISHING DATASOURCE :---------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+The following addon(s) have been automatically included for the selected
+product: Publishing Switching Datasource
 
 
 -------PRODUCT MODULE CALCULATION-----------------------------------------------
@@ -294,25 +543,28 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 Current Product Selection:
 
-  Oracle Commerce CAS Reader
-
-
-  Oracle Commerce REST
-
-
-  Oracle Commerce Site Administration
-
-
-  Oracle Commerce Platform-Guided Search Integration
+  Content Administration
 
 
   Oracle Commerce Core Commerce
 
 
+  Oracle Commerce Platform-Guided Search Integration
+
+
+  Oracle Commerce Site Administration
+
+
+  Oracle Commerce CAS Reader
+
+
   Oracle Commerce WebCenter Sites Extensions
 
 
-  Content Administration
+  Oracle Commerce REST
+
+
+  Oracle Commerce Service Center
 
 
 Selected AddOns:
@@ -320,30 +572,37 @@ Selected AddOns:
   Commerce Search
   Commerce CAS Reader
   Merchandising UI
-  Abandoned Order Services
   Switching Datasource
-  Publishing Management
-  Publishing Switching Datasource
+  Multi Site
+  Commerce Catalog Search
+  Oracle Commerce REST
   Add commerce data to SiteAdmin
   Index by SKU
-  Oracle Commerce REST
+  Publishing Management
+  Publishing Switching Datasource
 
 
 Server Instance Types:
 
   Production Server
 
-     DCS.AbandonedOrderServices DafEar.Admin DPS DSS ContentMgmt
-DCS.PublishingAgent ContentMgmt.Endeca.Index DCS.Endeca.Index PublishingAgent
-DCS.Endeca.Index.SKUIndexing REST
+     DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices
+DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index
+DCS.Endeca.Index REST DCS.Endeca.Index.SKUIndexing PublishingAgent
+
+  Commerce Agent Server
+
+     DafEar.Admin BIZUI Service.Ticketing Fulfillment
+DCS.AbandonedOrderServices DCS-CSR-UI DCS.TextSearch.Order.LiveIndex
+ContentMgmt.Endeca.Index DCS.Endeca.Index DCS-CSR-UI.Endeca REST
 
   Publishing Server
 
      DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned
-DCS.Versioned DCS-UI.SiteAdmin.Versioned SiteAdmin.Versioned
-ContentMgmt.Endeca.Index.Versioned DCS.Endeca.Index.Versioned
-DAF.Endeca.Reader.Versioned WCSExtensions.Endeca.Reader.Versioned
-DCS.Endeca.Index.SKUIndexing
+DCS-CSR.Management DCS.TextSearch.Order.Index DCS-UI.SiteAdmin.Versioned
+SiteAdmin.Versioned DCS.Versioned ContentMgmt.Endeca.Index.Versioned
+DCS.Endeca.Index.Versioned DAF.Endeca.Reader.Versioned
+WCSExtensions.Endeca.Reader.Versioned DCS.Endeca.Index.SKUIndexing
 
 
 -------VALIDATING INSTALLATION--------------------------------------------------
@@ -362,29 +621,246 @@ enter [h]Help, [q]Quit to exit
 Choose the task you want to perform:
 
 
- *[1]  Database Configuration
-  [2]  Configure OPSS Security
+  [R]  Set the Administrator Password - Done (pending database import)
+  [P]  Product Selection - Done (Content Administration & Oracle Commerce Core
+Commerce & Oracle Commerce Platform-Guided Search Integration & Oracle
+Commerce Site Administration & Oracle Commerce CAS Reader & Oracle Commerce
+WebCenter Sites Extensions & Oracle Commerce REST & Oracle Commerce Service
+Center)
+ *[A]  Select Application Server
+  [C]  Custom CIM Plugin Launcher
+
+ >
+
+-------APPLICATION SERVER SELECTION---------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Choose Application Server: (* = Currently selected )
+
+ *[1]  JBoss Application Server
+  [2]  Oracle Weblogic Online (Either Production or Developer Mode)
+  [3]  IBM Websphere Application Server
+  [4]  Apache Tomcat (Development Only)
+  [5]  Raw Ear Output Mode
+
+Select one >
+
+-------ENTER JBOSS HOME PATH----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+   Enter path:  > C:\jboss-eap-6.4
+
+  >> App Server home path set to C:/jboss-eap-6.4/
+
+=======CIM MAIN MENU============================================================
+enter [h]Help, [q]Quit to exit
+
+
+Choose the task you want to perform:
+
+
+ *[1]  Configure OPSS Security
+  [2]  Database Configuration
   [3]  Server Instance Configuration
   [4]  Application Assembly & Deployment
-  [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce CAS Reader & Oracle Commerce
-REST & Oracle Commerce Site Administration & Oracle Commerce Platform-Guided
-Search Integration & Oracle Commerce Core Commerce & Oracle Commerce WebCenter
-Sites Extensions & Content Administration)
+  [R]  Set the Administrator Password - Done (pending database import)
+  [P]  Product Selection - Done (Content Administration & Oracle Commerce Core
+Commerce & Oracle Commerce Platform-Guided Search Integration & Oracle
+Commerce Site Administration & Oracle Commerce CAS Reader & Oracle Commerce
+WebCenter Sites Extensions & Oracle Commerce REST & Oracle Commerce Service
+Center)
   [A]  Select Application Server - Done (JBoss)
   [C]  Custom CIM Plugin Launcher
 
  >
+
+-------SECURITY DEPLOYMENT MENU-------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Security Deployment Menu
+
+
+ *[1]  Enter the location to deploy OPSS files
+  [D]  Done
+
+ >
+
+-------ENTER THE LOCATION FOR THE SECURITY FILES--------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Enter the location for the OPSS configuration files. This location should be a
+shared or mounted directory that is accessible by all the server instances.
+For example...
+
+ - On Windows this would be mapped or shared drive e.g. z:\shared\opssfiles.
+ - On (*)nix based systems, this would be a mounted drive or shared location
+e.g. /mountshare/opssfiles.
+
+ The directory must have write permissions, but does not need to exist at this
+time. You will have the option to skip the deployment and defer to a later
+time or you copy the files manually, if preferred.
+
+
+   Enter Shared Path: [[C:/ATG/ATG11.2/home/../home/security/]]
+ > C:\ATG\ATG11.2\home\security
+
+  >> Succeeded storing path C:/ATG/ATG11.2/home/security/
+
+-------SECURITY DEPLOYMENT MENU-------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Security Deployment Menu
+
+
+  [1]  Update the location to deploy OPSS files  - Done
+  [2]  Enter the security credential for REST Services
+ *[3]  Enter the Workbench login credential
+  [4]  Deploy configuration files
+  [D]  Done
+
+ >
+
+-------ENTER THE WORKBENCH LOGIN CREDENTIAL-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+The Workbench username and password are required by Platform-Guided Search
+Integration for features that require a connection to Workbench.
+
+
+   Enter Workbench username > admin
+
+   Enter Workbench password > ********
+
+   Re-enter the password > ********
+
+  >> Succeeded storing Workbench login credential
+
+-------SECURITY DEPLOYMENT MENU-------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Security Deployment Menu
+
+
+  [1]  Update the location to deploy OPSS files  - Done
+  [2]  Enter the security credential for REST Services
+  [3]  Update the Workbench login credential - Done
+ *[4]  Deploy configuration files
+  [D]  Done
+
+ >
+
+-------COPY OPSS FILES TO DEPLOY DIRECTORY--------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Copies the OPSS configuration files to the deploy directory for manual
+deployment.
+
+
+  >> Copied all files to C:\ATG\ATG11.2\CIM\deploy
+
+-------COPY CREDENTIALS TO SHARED DIRECTORY-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Copy credentials to shared directory
+
+
+ *[D]  Deploy to C:/ATG/ATG11.2/home/security/
+  [S]  Skip deployment, Ill copy the files manually.
+
+ >
+
+-------VALIDATE WHETHER DIRECTORY CURRENTLY EXISTS------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Validates whether the selected directory exists at the time of installation
+
+
+-------VERIFY WHETHER TO OVERWRITE CURRENT DIRECTORY CONTENTS-------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Verify whether to overwrite current directory contents or skip deployment and
+leave the exist files in place.
+
+
+ *[D]  Deploy OPSS configuration files
+  [N]  No thanks, skip the copy process
+
+ >
+
+-------COPY CREDENTIALS TO SHARED DIRECTORY-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Copy credentials to shared directory
+
+
+  >> Successfully copied the files into the deployment directory C:\ATG\
+ATG11.2\home\security
+
+-------SECURITY DEPLOYMENT MENU-------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Security Deployment Menu
+
+
+  [1]  Update the location to deploy OPSS files  - Done
+  [2]  Enter the security credential for REST Services
+  [3]  Update the Workbench login credential - Done
+  [4]  Deploy configuration files - Done
+ *[D]  Done
+
+ >
+
+=======CIM MAIN MENU============================================================
+enter [h]Help, [q]Quit to exit
+
+
+Choose the task you want to perform:
+
+
+  [1]  Configure OPSS Security - Done
+ *[2]  Database Configuration
+  [3]  Server Instance Configuration
+  [4]  Application Assembly & Deployment
+  [R]  Set the Administrator Password - Done (pending database import)
+  [P]  Product Selection - Done (Content Administration & Oracle Commerce Core
+Commerce & Oracle Commerce Platform-Guided Search Integration & Oracle
+Commerce Site Administration & Oracle Commerce CAS Reader & Oracle Commerce
+WebCenter Sites Extensions & Oracle Commerce REST & Oracle Commerce Service
+Center)
+  [A]  Select Application Server - Done (JBoss)
+  [C]  Custom CIM Plugin Launcher
+
+ >
+
+-------PRE DATABASE CONFIGURATION VALIDATION------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
 
 -------CALCULATE DATASOURCE DEPENDENCIES----------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 
-  Calculating Datasource Dependencies. View log file at C:/ATG/ATG11.1/home/../
+  Calculating Datasource Dependencies. View log file at C:/ATG/ATG11.2/home/../
 CIM/ log/cim.log
-  |. . . . |
-  |. . . . |
+  |. . . . . |
+  |. . . . . |
 
 -------SELECT A DATASOURCE TO CONFIGURE-----------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -393,6 +869,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
  *[P]  Publishing
   [C]  Production Core
+  [A]  Agent Datasource
   [S]  Switching A
   [B]  Switching B
   [D]  Done
@@ -408,23 +885,8 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   [O]  Configure Another Datasource
 
  >
-
--------RE-USE VALUES FROM PREVIOUS DATASOURCE-----------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
 Publishing
 
-
-  Base on previous database details:
-
-  [1]  CRS_P@jdbc:oracle:thin:@localhost:1521:xe
-  [2]  CRS_C@jdbc:oracle:thin:@localhost:1521:xe
-  [3]  CRS_SW_A@jdbc:oracle:thin:@localhost:1521:xe
-  [4]  CRS_SW_B@jdbc:oracle:thin:@localhost:1521:xe
- *[5]  None/Use Existing
-
-Select one > 1
 
 -------ENTER CONNECTION DETAILS-------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -435,30 +897,30 @@ Publishing
 
   Select Database Type
 
- *[1]  Oracle Thin
+  [1]  Oracle Thin
   [2]  MS SQL
   [3]  iNet MS SQL
   [4]  DB2
   [5]  My SQL (Development Only)
 
-Select one >
+Select one > 5
 
-   Enter User Name [[CRS_P]] > SHOP_P
+   Enter User Name > root
 
-   Enter Password [[*****]] > SHOP_P
+   Enter Password > ****
 
-   Re-enter the password > SHOP_P
+   Re-enter the password > ****
 
-   Enter Host Name [[localhost]] >
+   Enter Host Name > localhost
 
-   Enter Port Number [[1521]] >
+   Enter Port Number [[3306]] >
 
-   Enter Database Name [[xe]] >
+   Enter Database Name > shop_pub
 
-   Enter Database URL [[jdbc:oracle:thin:@localhost:1521:xe]]
+   Enter Database URL [[jdbc:mysql://localhost:3306/shop_pub]]
  >
 
-   Enter Driver Path [[C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar]] >
+   Enter Driver Path > C:\ATG\ATG11.2\MySQL\mysql-connector-java-5.1.15-bin.jar
 
    Enter JNDI Name [[ATGPublishingDS]] >
 
@@ -483,7 +945,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 Publishing
 
 
-  >> Connection to database SHOP_P @ jdbc:oracle:thin:@localhost:1521:xe  is
+  >> Connection to database root @ jdbc:mysql://localhost:3306/shop_pub  is
 successful
 
 -------CONFIGURE DATASOURCE PUBLISHING------------------------------------------
@@ -512,7 +974,7 @@ Publishing
 
  >
 
-  Schema Creation Beginning. View log file at C:/ATG/ATG11.1/home/../CIM/ log/
+  Schema Creation Beginning. View log file at C:/ATG/ATG11.2/home/../CIM/ log/
 cim.log
   |. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
   |. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
@@ -581,6 +1043,8 @@ Loading ( 4 of 5 ) DSS/atg/registry/data/scenarios/DSS/*.sdl & DSS/atg/
 registry/data/scenarios/recorders/*.sdl...Success
 
 Importing ( 5 of 5 ) /CIM/tmp/import/management-import2.xml:
+/DPS/Endeca/Assembler/install/data/initial-segment-lists.xml to /atg/
+userprofiling/PersonalizationRepository
 /DCS/install/data/initial-segment-lists.xml to /atg/userprofiling/
 PersonalizationRepository
 /DCS/Versioned/install/data/internal-users-security.xml to /atg/userprofiling/
@@ -612,6 +1076,8 @@ ViewMappingRepository
 /DPS-UI/Versioned/install/data/examples.xml to /atg/web/viewmapping/
 ViewMappingRepository
 /ContentMgmt-UI/install/data/viewmapping.xml to /atg/web/viewmapping/
+ViewMappingRepository
+/ContentMgmt-UI/Versioned/install/data/viewmapping.xml to /atg/web/viewmapping/
 ViewMappingRepository
 /DCS-UI/install/data/viewmapping.xml to /atg/web/viewmapping/
 ViewMappingRepository
@@ -651,6 +1117,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   [P]  Publishing - Done
  *[C]  Production Core
+  [A]  Agent Datasource
   [S]  Switching A
   [B]  Switching B
   [D]  Done
@@ -676,14 +1143,10 @@ Production Core
 
   Base on previous database details:
 
-  [1]  CRS_P@jdbc:oracle:thin:@localhost:1521:xe
-  [2]  CRS_C@jdbc:oracle:thin:@localhost:1521:xe
-  [3]  CRS_SW_A@jdbc:oracle:thin:@localhost:1521:xe
-  [4]  CRS_SW_B@jdbc:oracle:thin:@localhost:1521:xe
-  [5]  SHOP_P@jdbc:oracle:thin:@localhost:1521:xe
- *[6]  None/Use Existing
+  [1]  root@jdbc:mysql://localhost:3306/shop_pub
+ *[2]  None/Use Existing
 
-Select one > 2
+Select one > 1
 
 -------ENTER CONNECTION DETAILS-------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -694,30 +1157,28 @@ Production Core
 
   Select Database Type
 
- *[1]  Oracle Thin
+  [1]  Oracle Thin
   [2]  MS SQL
   [3]  iNet MS SQL
   [4]  DB2
-  [5]  My SQL (Development Only)
+ *[5]  My SQL (Development Only)
 
 Select one >
 
-   Enter User Name [[CRS_C]] > SHOP_C
+   Enter User Name [[root]] >
 
-   Enter Password [[*****]] > SHOP_C
-
-   Re-enter the password > SHOP_C
+   Enter Password [[****]] >
 
    Enter Host Name [[localhost]] >
 
-   Enter Port Number [[1521]] >
+   Enter Port Number [[3306]] >
 
-   Enter Database Name [[xe]] >
+   Enter Database Name [[shop_pub]] > shop_prod
 
-   Enter Database URL [[jdbc:oracle:thin:@localhost:1521:xe]]
+   Enter Database URL [[jdbc:mysql://localhost:3306/shop_prod]]
  >
 
-   Enter Driver Path [[C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar]] >
+   Enter Driver Path [[C:/ATG/ATG11.2/MySQL/mysql-connector-java-5.1.15-bin.jar]] >
 
    Enter JNDI Name [[ATGProductionDS]] >
 
@@ -742,7 +1203,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 Production Core
 
 
-  >> Connection to database SHOP_C @ jdbc:oracle:thin:@localhost:1521:xe  is
+  >> Connection to database root @ jdbc:mysql://localhost:3306/shop_prod  is
 successful
 
 -------CONFIGURE DATASOURCE PRODUCTION CORE-------------------------------------
@@ -771,7 +1232,7 @@ Production Core
 
  >
 
-  Schema Creation Beginning. View log file at C:/ATG/ATG11.1/home/../CIM/ log/
+  Schema Creation Beginning. View log file at C:/ATG/ATG11.2/home/../CIM/ log/
 cim.log
   |. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
   |. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
@@ -810,7 +1271,18 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 Combining template tasks...Success
 
-Importing ( 1 of 1 ) /DAS/install/data/dynAdminRepo.xml to /atg/dynamo/security/AdminSqlRepository...Success
+Importing ( 1 of 3 ) /CIM/tmp/import/switchingCore-import1.xml:
+/DAS/install/data/dynAdminRepo.xml to /atg/dynamo/security/AdminSqlRepository
+/DPS/Endeca/Assembler/install/data/initial-segment-lists.xml to /atg/
+userprofiling/PersonalizationRepository
+/WebUI/install/data/external_profile.xml to /atg/userprofiling/
+ProfileAdapterRepository
+...Success
+
+Importing ( 2 of 3 ) /Service11.2/Service/Framework/data/initial/
+svc_option_data.xml to /atg/svc/option/OptionRepository...Success
+
+Importing ( 3 of 3 ) /CSC11.2/DCS-CSR/install/data/csrOptions.xml to /atg/svc/option/OptionRepository...Success
 
 Update administrator password (1 of 1). The administrator password was
 successfully updated in the database.
@@ -838,6 +1310,235 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   [P]  Publishing - Done
   [C]  Production Core - Done
+ *[A]  Agent Datasource
+  [S]  Switching A
+  [B]  Switching B
+  [D]  Done
+
+ >
+
+-------CONFIGURE DATASOURCE AGENT DATASOURCE------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+ *[C]  Connection Details
+  [O]  Configure Another Datasource
+
+ >
+
+-------RE-USE VALUES FROM PREVIOUS DATASOURCE-----------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Agent Datasource
+
+
+  Base on previous database details:
+
+  [1]  root@jdbc:mysql://localhost:3306/shop_pub
+  [2]  root@jdbc:mysql://localhost:3306/shop_prod
+ *[3]  None/Use Existing
+
+Select one > 1
+
+-------ENTER CONNECTION DETAILS-------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Agent Datasource
+
+
+  Select Database Type
+
+  [1]  Oracle Thin
+  [2]  MS SQL
+  [3]  iNet MS SQL
+  [4]  DB2
+ *[5]  My SQL (Development Only)
+
+Select one >
+
+   Enter User Name [[root]] >
+
+   Enter Password [[****]] >
+
+   Enter Host Name [[localhost]] >
+
+   Enter Port Number [[3306]] >
+
+   Enter Database Name [[shop_pub]] > shop_agent
+
+   Enter Database URL [[jdbc:mysql://localhost:3306/shop_agent]]
+ >
+
+   Enter Driver Path [[C:/ATG/ATG11.2/MySQL/mysql-connector-java-5.1.15-bin.jar]] >
+
+   Enter JNDI Name [[ATGAgentDS]] >
+
+-------CONFIGURE DATASOURCE AGENT DATASOURCE------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  Connection Details - Done
+ *[T]  Test Connection
+  [S]  Create Schema
+  [I]  Import Initial Data
+  [D]  Drop Schema
+  [O]  Configure Another Datasource
+
+ >
+
+-------TEST DATASOURCE CONNECTION-----------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Agent Datasource
+
+
+  >> Connection to database root @ jdbc:mysql://localhost:3306/shop_agent  is
+successful
+
+-------CONFIGURE DATASOURCE AGENT DATASOURCE------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  Connection Details - Done
+  [T]  Test Connection - Done
+ *[S]  Create Schema
+  [I]  Import Initial Data
+  [D]  Drop Schema
+  [O]  Configure Another Datasource
+
+ >
+
+-------CREATE SCHEMA------------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Agent Datasource
+
+
+ *[C]  Create Schema
+  [S]  Skip
+
+ >
+
+  Schema Creation Beginning. View log file at C:/ATG/ATG11.2/home/../CIM/ log/
+cim.log
+  |. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+  |. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+
+  >> Schema creation completed successfully
+
+-------CONFIGURE DATASOURCE AGENT DATASOURCE------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  Connection Details - Done
+  [T]  Test Connection - Done
+  [S]  Create Schema - Done
+ *[I]  Import Initial Data
+  [D]  Drop Schema
+  [O]  Configure Another Datasource
+
+ >
+
+-------IMPORT DATA--------------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Agent Datasource
+
+
+ *[I]  Import Data
+  [S]  Skip
+
+ >
+
+   Define the password for the Service Super Admin (login: service). Password must be at least 8 characters in length. Password must contain one of the following characters: 1234567890. Password must contain both upper-case and lower-case letters. > ********
+
+   Re-enter the password > ********
+
+   Define the password for the Publishing Admin User (login: admin). Password must be at least 8 characters in length. Password must contain one of the following characters: 1234567890. Password must contain both upper-case and lower-case letters. > ********
+
+   Re-enter the password > ********
+
+-------DATA IMPORT AGENT DATASOURCE---------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Combining template tasks...Success
+
+Importing ( 1 of 5 ) /CIM/tmp/import/svcagent-import1.xml:
+/DAS/install/data/dynAdminRepo.xml to /atg/dynamo/security/AdminSqlRepository
+/DPS/InternalUsers/install/data/das-security.xml to /atg/userprofiling/
+InternalProfileRepository
+/DPS/InternalUsers/install/data/security.xml to /atg/userprofiling/
+InternalProfileRepository
+...Success
+
+Importing ( 2 of 5 ) /Publishing/base/install/epub-role-data.xml to /atg/userprofiling/InternalProfileRepository...Success
+
+Importing ( 3 of 5 ) /CIM/tmp/import/svcagent-import2.xml:
+/Publishing/base/install/epub-file-repository-data.xml to /atg/epub/file/
+PublishingFileRepository
+/DPS/Endeca/Assembler/install/data/initial-segment-lists.xml to /atg/
+userprofiling/PersonalizationRepository
+/WebUI/install/data/profile.xml to /atg/userprofiling/InternalProfileRepository
+/WebUI/install/data/external_profile.xml to /atg/userprofiling/
+ProfileAdapterRepository
+/BCC/install/data/viewmapping.xml to /atg/web/viewmapping/ViewMappingRepository
+/DPS-UI/AccessControl/install/data/viewmapping.xml to /atg/web/viewmapping/
+ViewMappingRepository
+/DPS-UI/install/data/viewmapping.xml to /atg/web/viewmapping/
+ViewMappingRepository
+/BIZUI/install/data/portal.xml to /atg/portal/framework/PortalRepository
+/BIZUI/install/data/profile.xml to /atg/userprofiling/InternalProfileRepository
+/BIZUI/install/data/viewmapping.xml to /atg/web/viewmapping/
+ViewMappingRepository
+/AssetUI/install/data/viewmapping.xml to /atg/web/viewmapping/
+ViewMappingRepository
+/AssetUI/install/data/assetManagerViews.xml to /atg/web/viewmapping/
+ViewMappingRepository
+/DPS-UI/Versioned/install/data/viewmapping.xml to /atg/web/viewmapping/
+ViewMappingRepository
+...Success
+
+Importing ( 4 of 5 ) /Service11.2/Service/Framework/data/initial/svc_profile.xml to /atg/userprofiling/InternalProfileRepository...Success
+
+Importing ( 5 of 5 ) /CSC11.2/DCS-CSR/install/data/internalUserData.xml to /atg/userprofiling/InternalProfileRepository...Success
+
+Update administrator password (1 of 1). The administrator password was
+successfully updated in the database.
+
+All imports completed successfully.
+
+-------CONFIGURE DATASOURCE AGENT DATASOURCE------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  Connection Details - Done
+  [T]  Test Connection - Done
+  [S]  Create Schema - Done
+  [I]  Import Initial Data - Done
+  [D]  Drop Schema
+ *[O]  Configure Another Datasource
+
+ >
+
+-------SELECT A DATASOURCE TO CONFIGURE-----------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [P]  Publishing - Done
+  [C]  Production Core - Done
+  [A]  Agent Datasource - Done
  *[S]  Switching A
   [B]  Switching B
   [D]  Done
@@ -863,14 +1564,12 @@ Switching A
 
   Base on previous database details:
 
-  [1]  CRS_C@jdbc:oracle:thin:@localhost:1521:xe
-  [2]  CRS_SW_A@jdbc:oracle:thin:@localhost:1521:xe
-  [3]  CRS_SW_B@jdbc:oracle:thin:@localhost:1521:xe
-  [4]  SHOP_P@jdbc:oracle:thin:@localhost:1521:xe
-  [5]  SHOP_C@jdbc:oracle:thin:@localhost:1521:xe
- *[6]  None/Use Existing
+  [1]  root@jdbc:mysql://localhost:3306/shop_pub
+  [2]  root@jdbc:mysql://localhost:3306/shop_prod
+  [3]  root@jdbc:mysql://localhost:3306/shop_agent
+ *[4]  None/Use Existing
 
-Select one > 2
+Select one > 1
 
 -------ENTER CONNECTION DETAILS-------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -881,30 +1580,28 @@ Switching A
 
   Select Database Type
 
- *[1]  Oracle Thin
+  [1]  Oracle Thin
   [2]  MS SQL
   [3]  iNet MS SQL
   [4]  DB2
-  [5]  My SQL (Development Only)
+ *[5]  My SQL (Development Only)
 
 Select one >
 
-   Enter User Name [[CRS_SW_A]] > SHOP_SW_A
+   Enter User Name [[root]] >
 
-   Enter Password [[********]] > SHOP_SW_A
-
-   Re-enter the password > SHOP_SW_A
+   Enter Password [[****]] >
 
    Enter Host Name [[localhost]] >
 
-   Enter Port Number [[1521]] >
+   Enter Port Number [[3306]] >
 
-   Enter Database Name [[xe]] >
+   Enter Database Name [[shop_pub]] > shop_sw_a
 
-   Enter Database URL [[jdbc:oracle:thin:@localhost:1521:xe]]
+   Enter Database URL [[jdbc:mysql://localhost:3306/shop_sw_a]]
  >
 
-   Enter Driver Path [[C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar]] >
+   Enter Driver Path [[C:/ATG/ATG11.2/MySQL/mysql-connector-java-5.1.15-bin.jar]] >
 
    Enter JNDI Name [[ATGSwitchingDS_A]] >
 
@@ -929,8 +1626,8 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 Switching A
 
 
-  >> Connection to database SHOP_SW_A @ jdbc:oracle:thin:@localhost:1521:xe
-is successful
+  >> Connection to database root @ jdbc:mysql://localhost:3306/shop_sw_a  is
+successful
 
 -------CONFIGURE DATASOURCE SWITCHING A-----------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -958,10 +1655,10 @@ Switching A
 
  >
 
-  Schema Creation Beginning. View log file at C:/ATG/ATG11.1/home/../CIM/ log/
+  Schema Creation Beginning. View log file at C:/ATG/ATG11.2/home/../CIM/ log/
 cim.log
-  |. . . . . . . . . . . . . . . . . . |
-  |. . . . . . . . . . . . . . . . . . |
+  |. . . . . . . . . . . . . . . . . . . . . . . . . |
+  |. . . . . . . . . . . . . . . . . . . . . . . . . |
 
   >> Schema creation completed successfully
 
@@ -997,7 +1694,13 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 Combining template tasks...Success
 
-Importing ( 1 of 1 ) /DCS/install/data/returnData.xml to /atg/commerce/custsvc/CsrRepository...Success
+Importing ( 1 of 2 ) /DPS/Endeca/Assembler/install/data/
+initial-segment-lists.xml to /atg/userprofiling/PersonalizationRepository...Success
+
+Importing ( 2 of 2 ) /CIM/tmp/import/switchingA-import1.xml:
+/DCS/install/data/appeasementData.xml to /atg/commerce/order/OrderRepository
+/DCS/install/data/returnData.xml to /atg/commerce/custsvc/CsrRepository
+...Success
 
 Update administrator password (1 of 1). Update skipped, no action required.
 Please check the cim.log for details.
@@ -1025,6 +1728,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   [P]  Publishing - Done
   [C]  Production Core - Done
+  [A]  Agent Datasource - Done
   [S]  Switching A - Done
  *[B]  Switching B
   [D]  Done
@@ -1050,14 +1754,13 @@ Switching B
 
   Base on previous database details:
 
-  [1]  CRS_SW_A@jdbc:oracle:thin:@localhost:1521:xe
-  [2]  CRS_SW_B@jdbc:oracle:thin:@localhost:1521:xe
-  [3]  SHOP_P@jdbc:oracle:thin:@localhost:1521:xe
-  [4]  SHOP_C@jdbc:oracle:thin:@localhost:1521:xe
-  [5]  SHOP_SW_A@jdbc:oracle:thin:@localhost:1521:xe
- *[6]  None/Use Existing
+  [1]  root@jdbc:mysql://localhost:3306/shop_pub
+  [2]  root@jdbc:mysql://localhost:3306/shop_prod
+  [3]  root@jdbc:mysql://localhost:3306/shop_agent
+  [4]  root@jdbc:mysql://localhost:3306/shop_sw_a
+ *[5]  None/Use Existing
 
-Select one > 2
+Select one > 4
 
 -------ENTER CONNECTION DETAILS-------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -1068,30 +1771,28 @@ Switching B
 
   Select Database Type
 
- *[1]  Oracle Thin
+  [1]  Oracle Thin
   [2]  MS SQL
   [3]  iNet MS SQL
   [4]  DB2
-  [5]  My SQL (Development Only)
+ *[5]  My SQL (Development Only)
 
 Select one >
 
-   Enter User Name [[CRS_SW_B]] > SHOP_SW_B
+   Enter User Name [[root]] >
 
-   Enter Password [[********]] > SHOP_SW_B
-
-   Re-enter the password > SHOP_SW_B
+   Enter Password [[****]] >
 
    Enter Host Name [[localhost]] >
 
-   Enter Port Number [[1521]] >
+   Enter Port Number [[3306]] >
 
-   Enter Database Name [[xe]] >
+   Enter Database Name [[shop_sw_a]] > shop_sw_b
 
-   Enter Database URL [[jdbc:oracle:thin:@localhost:1521:xe]]
+   Enter Database URL [[jdbc:mysql://localhost:3306/shop_sw_b]]
  >
 
-   Enter Driver Path [[C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar]] >
+   Enter Driver Path [[C:/ATG/ATG11.2/MySQL/mysql-connector-java-5.1.15-bin.jar]] >
 
    Enter JNDI Name [[ATGSwitchingDS_B]] >
 
@@ -1116,8 +1817,8 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 Switching B
 
 
-  >> Connection to database SHOP_SW_B @ jdbc:oracle:thin:@localhost:1521:xe
-is successful
+  >> Connection to database root @ jdbc:mysql://localhost:3306/shop_sw_b  is
+successful
 
 -------CONFIGURE DATASOURCE SWITCHING B-----------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -1145,10 +1846,10 @@ Switching B
 
  >
 
-  Schema Creation Beginning. View log file at C:/ATG/ATG11.1/home/../CIM/ log/
+  Schema Creation Beginning. View log file at C:/ATG/ATG11.2/home/../CIM/ log/
 cim.log
-  |. . . . . . . . . . . . . . . . . . |
-  |. . . . . . . . . . . . . . . . . . |
+  |. . . . . . . . . . . . . . . . . . . . . . . . . |
+  |. . . . . . . . . . . . . . . . . . . . . . . . . |
 
   >> Schema creation completed successfully
 
@@ -1184,7 +1885,13 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 Combining template tasks...Success
 
-Importing ( 1 of 1 ) /DCS/install/data/returnData.xml to /atg/commerce/custsvc/CsrRepository...Success
+Importing ( 1 of 2 ) /DPS/Endeca/Assembler/install/data/
+initial-segment-lists.xml to /atg/userprofiling/PersonalizationRepository...Success
+
+Importing ( 2 of 2 ) /CIM/tmp/import/switchingB-import1.xml:
+/DCS/install/data/appeasementData.xml to /atg/commerce/order/OrderRepository
+/DCS/install/data/returnData.xml to /atg/commerce/custsvc/CsrRepository
+...Success
 
 Update administrator password (1 of 1). Update skipped, no action required.
 Please check the cim.log for details.
@@ -1212,6 +1919,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   [P]  Publishing - Done
   [C]  Production Core - Done
+  [A]  Agent Datasource - Done
   [S]  Switching A - Done
   [B]  Switching B - Done
  *[D]  Done
@@ -1225,50 +1933,16 @@ enter [h]Help, [q]Quit to exit
 Choose the task you want to perform:
 
 
-  [1]  Database Configuration - Done
- *[2]  Configure OPSS Security
-  [3]  Server Instance Configuration
-  [4]  Application Assembly & Deployment
-  [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce CAS Reader & Oracle Commerce
-REST & Oracle Commerce Site Administration & Oracle Commerce Platform-Guided
-Search Integration & Oracle Commerce Core Commerce & Oracle Commerce WebCenter
-Sites Extensions & Content Administration)
-  [A]  Select Application Server - Done (JBoss)
-  [C]  Custom CIM Plugin Launcher
-
- >
-
--------SECURITY DEPLOYMENT MENU-------------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-Security Deployment Menu
-
-
-  [1]  Update the location to deploy OPSS files  - Done
-  [2]  Enter the security credential for REST Services
-  [3]  Deploy configuration files - Done
- *[D]  Done
-
- >
-
-=======CIM MAIN MENU============================================================
-enter [h]Help, [q]Quit to exit
-
-
-Choose the task you want to perform:
-
-
-  [1]  Database Configuration - Done
-  [2]  Configure OPSS Security - Done
+  [1]  Configure OPSS Security - Done
+  [2]  Database Configuration - Done
  *[3]  Server Instance Configuration
   [4]  Application Assembly & Deployment
   [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce CAS Reader & Oracle Commerce
-REST & Oracle Commerce Site Administration & Oracle Commerce Platform-Guided
-Search Integration & Oracle Commerce Core Commerce & Oracle Commerce WebCenter
-Sites Extensions & Content Administration)
+  [P]  Product Selection - Done (Content Administration & Oracle Commerce Core
+Commerce & Oracle Commerce Platform-Guided Search Integration & Oracle
+Commerce Site Administration & Oracle Commerce CAS Reader & Oracle Commerce
+WebCenter Sites Extensions & Oracle Commerce REST & Oracle Commerce Service
+Center)
   [A]  Select Application Server - Done (JBoss)
   [C]  Custom CIM Plugin Launcher
 
@@ -1283,6 +1957,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
  *[P]  Publishing Server - 0 Instances Configured
   [S]  Production Server - 0 Instances Configured
+  [C]  Commerce Agent Server - 0 Instances Configured
   [D]  Done
 
  >
@@ -1301,13 +1976,13 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   [I]  Instance Management - REQUIRED
   [C]  Modify Calculated Module List - OPTIONAL
   [A]  Assemble WCS installation folders - OPTIONAL
-  [W]  Workbench configuration - OPTIONAL
   [S]  Scenario Manager - OPTIONAL
+  [W]  Workbench configuration - OPTIONAL
   [O]  Configure Another Server Instance Type
 
  >
 
-   Enter Production Lock Server Hostname [[localhost]] >
+   Enter Production Lock Server Hostname > localhost
 
    Enter Production Lock Server Port [[9012]] >
 
@@ -1319,7 +1994,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
    Enter EAC Port [[8888]] >
 
-   Enter EAC Base Application Name [[CRS]] > Shop
+   Enter EAC Base Application Name [[ATG]] > Shop
 
    Enter the Fully-qualified Workbench Hostname, Including Domain
  > localhost
@@ -1328,7 +2003,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
    Enter Default MDEX Host Name [[localhost]] >
 
-   Enter Default MDEX Port Number [[15000]] > 20010
+   Enter Default MDEX Port Number [[15000]] > 18000
 
    Enter CAS Hostname for Commerce CAS Reader [[localhost]]
  >
@@ -1336,7 +2011,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
    Enter CAS Port for Commerce CAS Reader [[8500]] >
 
    Enter Names of Record Stores for Commerce CAS Reader [[ATG_import]]
- >
+ > Shop_import
 
 -------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -1347,8 +2022,8 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
  *[I]  Instance Management - REQUIRED
   [C]  Modify Calculated Module List - OPTIONAL
   [A]  Assemble WCS installation folders - OPTIONAL
-  [W]  Workbench configuration - OPTIONAL
   [S]  Scenario Manager - OPTIONAL
+  [W]  Workbench configuration - OPTIONAL
   [O]  Configure Another Server Instance Type
 
  >
@@ -1424,121 +2099,125 @@ Select one > 2
 
    Enter File Synchronization Deploy Server Port [[8816]] >
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\dynamo\Configuration.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\dynamo\Initial.properties
 
    Enter Lock Server Port [[9010]] >
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\dynamo\service\
 ServerLockManager.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\dynamo\service\
 ClientLockManager.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-JTDataSource_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\content\
-ContentManagementRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-SwitchingDataSourceB.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-DirectJTDataSource_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\content\search\
-MediaContentOutputConfig.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\server\
-SQLRepositoryEventServer.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\userprofiling\
-PersonalizationRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\seo\SEORepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\assembler\
-AssemblerApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-DirectJTDataSource.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\locations\
-LocationRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\search\config\
-LanguageDimensionService.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-SwitchingDataSourceA.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\
-ClientLockManager_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\search\
-ProductCatalogOutputConfig.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\
-ApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\dynamo\server\
 OPSSInitializer.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\catalog\
-ProductCatalog_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\index\
-IndexingApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\multisite\
-SiteRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-JTDataSource.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\content\search\
-ArticleOutputConfig.properties
+MediaContentOutputConfig.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\pricing\priceLists\
-PriceLists_production.properties
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\server\
+SQLRepositoryEventServer.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\reader\EndecaReader.properties
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\commerce\locations\
+LocationRepository_production.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\search\config\
+LanguageDimensionService.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
+SwitchingDataSourceB.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\seo\SEORepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\commerce\search\
+ProductCatalogOutputConfig.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\endeca\
+ApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\
+ClientLockManager_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\commerce\endeca\index\
 CategoryToDimensionOutputConfig.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\commerce\pricing\priceLists\
+PriceLists_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\endeca\index\
+IndexingApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\content\
+ContentManagementRepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\repository\dynamic\
+DynamicMetadataRepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\endeca\reader\EndecaReader.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
+JTDataSource_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\endeca\assembler\
+AssemblerApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\commerce\catalog\
+ProductCatalog_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
+JTDataSource.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\multisite\
+SiteRepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
+SwitchingDataSourceA.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\userprofiling\
+PersonalizationRepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopPublishing\localconfig\atg\content\search\
+ArticleOutputConfig.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopPublishing\localconfig\atg\dynamo\service\ClusterName.properties
 
 -------SERVER INSTANCE CONFIGURATION--------------------------------------------
@@ -1571,8 +2250,8 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   [I]  Instance Management - 1 Instance Configured
   [C]  Modify Calculated Module List - OPTIONAL
   [A]  Assemble WCS installation folders - OPTIONAL
-  [W]  Workbench configuration - OPTIONAL
   [S]  Scenario Manager - OPTIONAL
+  [W]  Workbench configuration - OPTIONAL
  *[O]  Configure Another Server Instance Type
 
  > c
@@ -1584,10 +2263,10 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 Current Module List:
 
 DCS-UI.Versioned, BIZUI, PubPortlet, DafEar.Admin, ContentMgmt.Versioned,
-DCS.Versioned, DCS-UI.SiteAdmin.Versioned, SiteAdmin.Versioned,
-ContentMgmt.Endeca.Index.Versioned, DCS.Endeca.Index.Versioned,
-DAF.Endeca.Reader.Versioned, WCSExtensions.Endeca.Reader.Versioned,
-DCS.Endeca.Index.SKUIndexing
+DCS-CSR.Management, DCS.TextSearch.Order.Index, DCS-UI.SiteAdmin.Versioned,
+SiteAdmin.Versioned, DCS.Versioned, ContentMgmt.Endeca.Index.Versioned,
+DCS.Endeca.Index.Versioned, DAF.Endeca.Reader.Versioned,
+WCSExtensions.Endeca.Reader.Versioned, DCS.Endeca.Index.SKUIndexing
 
 
  *[A]  Add A Custom Module
@@ -1616,28 +2295,32 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   [5]  --->
        ContentMgmt.Versioned
   [6]  --->
-       DCS.Versioned
+       DCS-CSR.Management
   [7]  --->
-       DCS-UI.SiteAdmin.Versioned
+       DCS.TextSearch.Order.Index
   [8]  --->
-       SiteAdmin.Versioned
+       DCS-UI.SiteAdmin.Versioned
   [9]  --->
-       ContentMgmt.Endeca.Index.Versioned
+       SiteAdmin.Versioned
   [10]  --->
-       DCS.Endeca.Index.Versioned
+       DCS.Versioned
   [11]  --->
-       DAF.Endeca.Reader.Versioned
+       ContentMgmt.Endeca.Index.Versioned
   [12]  --->
-       WCSExtensions.Endeca.Reader.Versioned
+       DCS.Endeca.Index.Versioned
   [13]  --->
-       DCS.Endeca.Index.SKUIndexing
+       DAF.Endeca.Reader.Versioned
   [14]  --->
+       WCSExtensions.Endeca.Reader.Versioned
+  [15]  --->
+       DCS.Endeca.Index.SKUIndexing
+  [16]  --->
 
   [C]  Cancel and do not add a module.
 
-Select one > 14
+Select one > 16
 
-  >> Added the module Shop.EStore.Versioned to the list at location 14
+  >> Added the module Shop.EStore.Versioned to the list at location 16
 
 -------MODULE LIST EDITOR OPTIONS-----------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -1646,10 +2329,11 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 Current Module List:
 
 DCS-UI.Versioned, BIZUI, PubPortlet, DafEar.Admin, ContentMgmt.Versioned,
-DCS.Versioned, DCS-UI.SiteAdmin.Versioned, SiteAdmin.Versioned,
-ContentMgmt.Endeca.Index.Versioned, DCS.Endeca.Index.Versioned,
-DAF.Endeca.Reader.Versioned, WCSExtensions.Endeca.Reader.Versioned,
-DCS.Endeca.Index.SKUIndexing, Shop.EStore.Versioned
+DCS-CSR.Management, DCS.TextSearch.Order.Index, DCS-UI.SiteAdmin.Versioned,
+SiteAdmin.Versioned, DCS.Versioned, ContentMgmt.Endeca.Index.Versioned,
+DCS.Endeca.Index.Versioned, DAF.Endeca.Reader.Versioned,
+WCSExtensions.Endeca.Reader.Versioned, DCS.Endeca.Index.SKUIndexing,
+Shop.EStore.Versioned
 
 
  *[A]  Add A Custom Module
@@ -1667,8 +2351,8 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
   [I]  Instance Management - 1 Instance Configured
   [C]  Modify Calculated Module List - OPTIONAL
   [A]  Assemble WCS installation folders - OPTIONAL
-  [W]  Workbench configuration - OPTIONAL
   [S]  Scenario Manager - OPTIONAL
+  [W]  Workbench configuration - OPTIONAL
  *[O]  Configure Another Server Instance Type
 
  >
@@ -1682,6 +2366,7 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   [P]  Publishing Server - 1 Instance Configured - DONE
  *[S]  Production Server - 0 Instances Configured
+  [C]  Commerce Agent Server - 0 Instances Configured
   [D]  Done
 
  >
@@ -1721,258 +2406,11 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
    Enter Default MDEX Host Name [[localhost]] >
 
-   Enter Default MDEX Port Number [[15000]] > m
+   Enter Default MDEX Port Number [[15000]] > 18000
 
-=======CIM MAIN MENU============================================================
-enter [h]Help, [q]Quit to exit
+   SMTP Email Host Name > pro.turbo-smtp.com
 
-
-Choose the task you want to perform:
-
-
-  [1]  Database Configuration - Done
-  [2]  Configure OPSS Security - Done
- *[3]  Server Instance Configuration
-  [4]  Application Assembly & Deployment
-  [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce CAS Reader & Oracle Commerce
-REST & Oracle Commerce Site Administration & Oracle Commerce Platform-Guided
-Search Integration & Oracle Commerce Core Commerce & Oracle Commerce WebCenter
-Sites Extensions & Content Administration)
-  [A]  Select Application Server - Done (JBoss)
-  [C]  Custom CIM Plugin Launcher
-
- >
-
--------SERVER INSTANCE TYPE SELECTION-------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-1 Instance Configured
-
-
-  [P]  Publishing Server - 1 Instance Configured - DONE
- *[S]  Production Server - 0 Instances Configured
-  [D]  Done
-
- > p
-
--------SERVER INSTANCE DATASOURCE VALIDATION FOR MANAGEMENT---------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
--------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
-  [P]  Publishing Server General Configuration - DONE
-  [I]  Instance Management - 1 Instance Configured
-  [C]  Modify Calculated Module List - OPTIONAL
-  [A]  Assemble WCS installation folders - OPTIONAL
-  [W]  Workbench configuration - OPTIONAL
-  [S]  Scenario Manager - OPTIONAL
- *[O]  Configure Another Server Instance Type
-
- > p
-
-   Enter Production Lock Server Hostname [[localhost]] >
-
-   Enter Production Lock Server Port [[9012]] >
-
-   Enter CAS Hostname [[localhost]] >
-
-   Enter CAS Port [[8500]] >
-
-   Enter EAC Hostname [[localhost]] >
-
-   Enter EAC Port [[8888]] >
-
-   Enter EAC Base Application Name [[Shop]] >
-
-   Enter the Fully-qualified Workbench Hostname, Including Domain
- > localhost
-
-   Enter Workbench Port Number [[8006]] >
-
-   Enter Default MDEX Host Name [[localhost]] >
-
-   Enter Default MDEX Port Number [[15000]] > 20000
-
-   Enter CAS Hostname for Commerce CAS Reader [[localhost]]
- >
-
-   Enter CAS Port for Commerce CAS Reader [[8500]] >
-
-   Enter Names of Record Stores for Commerce CAS Reader [[ATG_import]]
- >
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-JTDataSource_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\content\
-ContentManagementRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-SwitchingDataSourceB.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-DirectJTDataSource_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\content\search\
-MediaContentOutputConfig.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\server\
-SQLRepositoryEventServer.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\userprofiling\
-PersonalizationRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\seo\SEORepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\assembler\
-AssemblerApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-DirectJTDataSource.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\locations\
-LocationRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\search\config\
-LanguageDimensionService.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-SwitchingDataSourceA.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\
-ClientLockManager_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\search\
-ProductCatalogOutputConfig.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\
-ApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\server\
-OPSSInitializer.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\catalog\
-ProductCatalog_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\index\
-IndexingApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\multisite\
-SiteRepository_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\jdbc\
-JTDataSource.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\content\search\
-ArticleOutputConfig.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\pricing\priceLists\
-PriceLists_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\endeca\reader\EndecaReader.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\commerce\endeca\index\
-CategoryToDimensionOutputConfig.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopPublishing\localconfig\atg\dynamo\service\ClusterName.properties
-
--------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
-  [P]  Publishing Server General Configuration - DONE
-  [I]  Instance Management - 1 Instance Configured
-  [C]  Modify Calculated Module List - OPTIONAL
-  [A]  Assemble WCS installation folders - OPTIONAL
-  [W]  Workbench configuration - OPTIONAL
-  [S]  Scenario Manager - OPTIONAL
- *[O]  Configure Another Server Instance Type
-
- >
-
--------SERVER INSTANCE TYPE SELECTION-------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-1 Instance Configured
-
-
-  [P]  Publishing Server - 1 Instance Configured - DONE
- *[S]  Production Server - 0 Instances Configured
-  [D]  Done
-
- >
-
--------SERVER INSTANCE DATASOURCE VALIDATION FOR PRODUCTION---------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
--------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
- *[P]  Production Server General Configuration - REQUIRED
-  [I]  Instance Management - REQUIRED
-  [C]  Modify Calculated Module List - OPTIONAL
-  [S]  Scenario Manager - OPTIONAL
-  [O]  Configure Another Server Instance Type
-
- >
-
-   Enter CAS Hostname [[localhost]] >
-
-   Enter CAS Port [[8500]] >
-
-   Enter EAC Hostname [[localhost]] >
-
-   Enter EAC Port [[8888]] >
-
-   Enter EAC Base Application Name [[Shop]] >
-
-   Enter the Fully-qualified Workbench Hostname, Including Domain
- > localhost
-
-   Enter Workbench Port Number [[8006]] >
-
-   Enter Default MDEX Host Name [[localhost]] >
-
-   Enter Default MDEX Port Number [[15000]] > 20000
+   SMTP Email Port Number [[25]] > 2525
 
 -------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -2028,21 +2466,7 @@ unique port binding.
  *[U]  Use Default Port Binding
   [C]  Choose Custom Port Binding
 
- > c
-
--------CHOOSE CUSTOM JBOSS PORT BINDING-----------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
-  Select a port binding
-
- *[1]  Default - HTTP port is 8080
-  [2]  ports-01 - HTTP port is 8180
-  [3]  ports-02 - HTTP port is 8280
-  [4]  ports-03 - HTTP port is 8380
-
-Select one >
+ >
 
    Enter HTTP Port [[8080]] >
 
@@ -2056,127 +2480,142 @@ Select one >
 
    Enter File Deployment Port [[8810]] >
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\Configuration.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\Initial.properties
 
    Enter Lock Server Port [[9012]] >
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\service\
 ServerLockManager.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\service\
 ClientLockManager.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\service\
 ClientLockManager_production.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\servlet\adminpipeline\
-AdminHandler.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
-SwitchingDataSourceB.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
-DirectJTDataSource_production.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\commerce\catalog\
-ProductCatalog.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\commerce\catalog\custom\
-AncestorGeneratorService.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\userprofiling\
-PersonalizationRepository.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\service\
-GSAInvalidatorService.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\endeca\assembler\
-AssemblerApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\epub\file\ConfigFileSystem.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\Initial.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\seo\SEORepository.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
-DirectJTDataSource.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\search\config\
-LanguageDimensionService.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
-SwitchingDataSourceA.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\servlet\dafpipeline\
-DynamoHandler.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\servlet\dafpipeline\
-AccessControlServlet.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\content\
-ContentManagementRepository.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\tracking\
-UsageTrackingService.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\commerce\locations\
-LocationRepository.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\endeca\
-ApplicationConfiguration.properties
-
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\server\
 OPSSInitializer.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\endeca\index\
-IndexingApplicationConfiguration.properties
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\
+GSACacheServerManager.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\epub\file\ConfigFileSystem.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\servlet\adminpipeline\
+AdminHandler.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\Initial.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\commerce\locations\
+LocationRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\search\config\
+LanguageDimensionService.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
-JTDataSource.properties
+SwitchingDataSourceB.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\multisite\SiteRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\
+GSACacheClientManager.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\content\
+ContentManagementRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\endeca\
+ApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\commerce\pricing\priceLists\
 PriceLists.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\SMTPEmail.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\seo\SEORepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\servlet\dafpipeline\
+AccessControlServlet.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\repository\dynamic\
+DynamicMetadataRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\userprofiling\
+PersonalizationRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\servlet\dafpipeline\
+DynamoHandler.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\endeca\index\
+IndexingApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
 servers\ShopProduction\localconfig\atg\epub\DeploymentAgent.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\dynamo\service\ClusterName.properties
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\
+GSACacheClientManager_production.properties
 
-  >> Properties File successfully created at C:\ATG\ATG11.1\home\..\home\
-servers\ShopProduction\localconfig\atg\multisite\SiteRepository.properties
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\endeca\assembler\
+AssemblerApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
+JTDataSource.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\
+GSAInvalidatorService.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\tracking\
+UsageTrackingService.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\jdbc\
+SwitchingDataSourceA.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\commerce\catalog\
+ProductCatalog.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopProduction\localconfig\atg\dynamo\service\ClusterName.properties
 
 -------SERVER INSTANCE CONFIGURATION--------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -2218,9 +2657,9 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 Current Module List:
 
-DCS.AbandonedOrderServices, DafEar.Admin, DPS, DSS, ContentMgmt,
-DCS.PublishingAgent, ContentMgmt.Endeca.Index, DCS.Endeca.Index,
-PublishingAgent, DCS.Endeca.Index.SKUIndexing, REST
+DafEar.Admin, DPS, DSS, ContentMgmt, DCS.AbandonedOrderServices,
+DCS.TextSearch.Order.Index, DCS.PublishingAgent, ContentMgmt.Endeca.Index,
+DCS.Endeca.Index, REST, DCS.Endeca.Index.SKUIndexing, PublishingAgent
 
 
  *[A]  Add A Custom Module
@@ -2234,39 +2673,41 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 
-   Please enter the name of the custom module to add. > Shop.StoreFront
+   Please enter the name of the custom module to add. > Shop.Storefront
 
   Choose Location to Place Module.
 
   [1]  --->
-       DCS.AbandonedOrderServices
-  [2]  --->
        DafEar.Admin
-  [3]  --->
+  [2]  --->
        DPS
-  [4]  --->
+  [3]  --->
        DSS
-  [5]  --->
+  [4]  --->
        ContentMgmt
+  [5]  --->
+       DCS.AbandonedOrderServices
   [6]  --->
-       DCS.PublishingAgent
+       DCS.TextSearch.Order.Index
   [7]  --->
-       ContentMgmt.Endeca.Index
+       DCS.PublishingAgent
   [8]  --->
-       DCS.Endeca.Index
+       ContentMgmt.Endeca.Index
   [9]  --->
-       PublishingAgent
+       DCS.Endeca.Index
   [10]  --->
-       DCS.Endeca.Index.SKUIndexing
-  [11]  --->
        REST
+  [11]  --->
+       DCS.Endeca.Index.SKUIndexing
   [12]  --->
+       PublishingAgent
+  [13]  --->
 
   [C]  Cancel and do not add a module.
 
-Select one > 12
+Select one > 13
 
-  >> Added the module Shop.StoreFront to the list at location 12
+  >> Added the module Shop.Storefront to the list at location 13
 
 -------MODULE LIST EDITOR OPTIONS-----------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -2274,9 +2715,10 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 Current Module List:
 
-DCS.AbandonedOrderServices, DafEar.Admin, DPS, DSS, ContentMgmt,
-DCS.PublishingAgent, ContentMgmt.Endeca.Index, DCS.Endeca.Index,
-PublishingAgent, DCS.Endeca.Index.SKUIndexing, REST, Shop.StoreFront
+DafEar.Admin, DPS, DSS, ContentMgmt, DCS.AbandonedOrderServices,
+DCS.TextSearch.Order.Index, DCS.PublishingAgent, ContentMgmt.Endeca.Index,
+DCS.Endeca.Index, REST, DCS.Endeca.Index.SKUIndexing, PublishingAgent,
+Shop.Storefront
 
 
  *[A]  Add A Custom Module
@@ -2307,6 +2749,343 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
   [P]  Publishing Server - 1 Instance Configured - DONE
   [S]  Production Server - 1 Instance Configured - DONE
+ *[C]  Commerce Agent Server - 0 Instances Configured
+  [D]  Done
+
+ >
+
+-------SERVER INSTANCE DATASOURCE VALIDATION FOR SVCAGENT-----------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+-------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+ *[C]  Commerce Agent Server General Configuration - REQUIRED
+  [I]  Instance Management - REQUIRED
+  [L]  Modify Calculated Module List - OPTIONAL
+  [S]  Scenario Manager - OPTIONAL
+  [O]  Configure Another Server Instance Type
+
+ >
+
+   Enter Production Lock Server Address [[localhost]] >
+
+   Enter Production Server Client Lock Manager Port: [[9012]]
+ >
+
+   SMTP Email Host Name [[pro.turbo-smtp.com]] >
+
+   SMTP Email Port Number [[2525]] >
+
+   Enter the default catalog ID: [[default_catalog_id]] >
+
+   Enter the default site ID > shopHome
+
+   Enter Commerce Catalog Search default content URI: [[/browse]]
+ >
+
+   Enter CAS Hostname [[localhost]] >
+
+   Enter CAS Port [[8500]] >
+
+   Enter EAC Hostname [[localhost]] >
+
+   Enter EAC Port [[8888]] >
+
+   Enter EAC Base Application Name [[Shop]] >
+
+   Enter the Fully-qualified Workbench Hostname, Including Domain
+ > localhost
+
+   Enter Workbench Port Number [[8006]] >
+
+   Enter Default MDEX Host Name [[localhost]] >
+
+   Enter Default MDEX Port Number [[15000]] > 18000
+
+   Enter the application configuration archive path > C:\Endeca\apps\CRS\data\workbench\application_export_archiveC:\Endeca\apps\CRS\d
+
+  >> The application configuration archive path cannot be blank.
+
+   Enter the application configuration archive path > C:\Endeca\apps\Shop\data\workbench\application_export_archive\Shop
+
+-------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  Commerce Agent Server General Configuration - DONE
+ *[I]  Instance Management - REQUIRED
+  [L]  Modify Calculated Module List - OPTIONAL
+  [S]  Scenario Manager - OPTIONAL
+  [O]  Configure Another Server Instance Type
+
+ >
+
+-------INSTANCE MANAGEMENT------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Select a server instance to Edit, Add a new server instance, or remove a
+server instance
+
+
+
+ *[A]  Add Server Instance
+  [R]  Remove Server Instance
+  [D]  Done
+
+ >
+
+  Select Type of Server Instance To Create
+
+ *[1]  Service Agent Server
+  [2]  Service Agent Server with a Server Lock Manager
+
+Select one >
+
+-------NAME FOR NEW SERVER INSTANCE---------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+   Enter Server Instance Name :  [[atg_svcagent]] > ShopAgent
+
+-------JBOSS PORT BINDING-------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Running multiple instances on the same machine requires each instance to use a
+unique port binding.
+
+
+ *[U]  Use Default Port Binding
+  [C]  Choose Custom Port Binding
+
+ > c
+
+-------CHOOSE CUSTOM JBOSS PORT BINDING-----------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  Select a port binding
+
+ *[1]  Default - HTTP port is 8080
+  [2]  ports-01 - HTTP port is 8180
+  [3]  ports-02 - HTTP port is 8280
+  [4]  ports-03 - HTTP port is 8380
+
+Select one > 3
+
+   Enter HTTP Port [[8280]] >
+
+   Enter HTTPS Port [[8643]] >
+
+   Enter RMI Port [[8862]] >
+
+   Enter DRP Port [[8852]] >
+
+   Enter File Deployment Port [[8812]] >
+
+   Enter File Synchronization Deploy Server Port [[8817]] >
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\Configuration.properties
+
+   Enter Agent Lock Server Hostname > localhost
+
+   Enter Agent Lock Server Port [[9011]] >
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\
+ClientLockManager_agent.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\commerce\locations\
+LocationRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+SwitchingDataSourceB.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\multisite\SiteRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\commerce\custsvc\util\
+CSRConfigurator.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\seo\SEORepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource_agent.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\
+GSACacheClientManager.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\content\
+ContentManagementRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\endeca\ApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\commerce\pricing\priceLists\
+PriceLists.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\SMTPEmail.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\seo\SEORepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\
+ClientLockManager_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\servlet\dafpipeline\
+AccessControlServlet.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\svc\ui\framework\
+ServiceFrameworkRepository_read.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\repository\dynamic\
+DynamicMetadataRepository.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\JTDataSource.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\endeca\index\
+IndexingApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\endeca\assembler\cartridge\manager\
+DefaultFileStoreFactory.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\Initial.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\epub\DeploymentAgent.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\
+GSACacheClientManager_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\userprofiling\textsearch\
+ProfileOutputConfig.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\endeca\assembler\
+AssemblerApplicationConfiguration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\
+GSACacheClientManager_agent.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+JTDataSource_agent.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+DirectJTDataSource_reporting.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\commerce\textsearch\
+OrderOutputConfig.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+JTDataSource_reporting.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\multisite\
+SiteRepository_production.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\textsearch\client\SearchClient.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\jdbc\
+SwitchingDataSourceA.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\commerce\catalog\ProductCatalog.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\commerce\custsvc\catalog\endeca\
+Configuration.properties
+
+  >> Properties File successfully created at C:\ATG\ATG11.2\home\..\home\
+servers\ShopAgent\localconfig\atg\dynamo\service\ClusterName.properties
+
+-------SERVER INSTANCE CONFIGURATION--------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+-------INSTANCE MANAGEMENT------------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Select a server instance to Edit, Add a new server instance, or remove a
+server instance
+
+
+  [S]  ShopAgent - Service Agent Server
+
+  [A]  Add Server Instance
+  [R]  Remove Server Instance
+ *[D]  Done
+
+ >
+
+-------SERVER INSTANCE TYPE CONFIGURATION---------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  Commerce Agent Server General Configuration - DONE
+  [I]  Instance Management - 1 Instance Configured
+  [L]  Modify Calculated Module List - OPTIONAL
+  [S]  Scenario Manager - OPTIONAL
+ *[O]  Configure Another Server Instance Type
+
+ >
+
+-------SERVER INSTANCE TYPE SELECTION-------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+3 Instances Configured
+
+
+  [P]  Publishing Server - 1 Instance Configured - DONE
+  [S]  Production Server - 1 Instance Configured - DONE
+  [C]  Commerce Agent Server - 1 Instance Configured - DONE
  *[D]  Done
 
  >
@@ -2318,15 +3097,16 @@ enter [h]Help, [q]Quit to exit
 Choose the task you want to perform:
 
 
-  [1]  Database Configuration - Done
-  [2]  Configure OPSS Security - Done
+  [1]  Configure OPSS Security - Done
+  [2]  Database Configuration - Done
   [3]  Server Instance Configuration - Done
  *[4]  Application Assembly & Deployment
   [R]  Set the Administrator Password - Done
-  [P]  Product Selection - Done (Oracle Commerce CAS Reader & Oracle Commerce
-REST & Oracle Commerce Site Administration & Oracle Commerce Platform-Guided
-Search Integration & Oracle Commerce Core Commerce & Oracle Commerce WebCenter
-Sites Extensions & Content Administration)
+  [P]  Product Selection - Done (Content Administration & Oracle Commerce Core
+Commerce & Oracle Commerce Platform-Guided Search Integration & Oracle
+Commerce Site Administration & Oracle Commerce CAS Reader & Oracle Commerce
+WebCenter Sites Extensions & Oracle Commerce REST & Oracle Commerce Service
+Center)
   [A]  Select Application Server - Done (JBoss)
   [C]  Custom CIM Plugin Launcher
 
@@ -2337,8 +3117,273 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 
- *[S]  ShopProduction - Production with a Server Lock Manager
-  [P]  ShopPublishing - Publishing with a Server Lock Manager
+ *[S]  ShopAgent - Service Agent Server
+  [P]  ShopProduction - Production with a Server Lock Manager
+  [W]  ShopPublishing - Publishing with a Server Lock Manager
+  [D]  Done
+
+ >
+
+-------ENTER EAR FILE NAME(S)---------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+   Enter Ear File Name for Service Agent Server [[atg_svcagent.ear]]
+ > ShopAgent.ear
+
+-------SELECT JBOSS SERVER TO USE-----------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  CRSAgent
+  [R]  CRSProduction
+  [S]  CRSPublishing
+ *[A]  CIM should create a new server for me.
+
+ >
+
+-------SELECT JBOSS SERVER TEMPLATE TO USE--------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+ *[S]  standalone.xml
+  [T]  standalone-full.xml
+  [A]  standalone-full-ha.xml
+  [N]  standalone-ha.xml
+  [D]  standalone-osgi.xml
+
+ >
+
+   Enter Name For Jboss Server:  [[ShopAgent]] >
+
+  >> Template set to standalone.xml
+
+  >> Server set to ShopAgent
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopAgent -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin BIZUI Service.Ticketing Fulfillment DCS.AbandonedOrderServices
+DCS-CSR-UI DCS.TextSearch.Order.LiveIndex ContentMgmt.Endeca.Index
+DCS.Endeca.Index DCS-CSR-UI.Endeca REST
+
+
+ *[D]  Deploy Service Agent Server ShopAgent.ear to JBoss
+  [R]  Register Datasources on JBoss
+  [A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------DEPLOY SERVICE AGENT SERVER TO JBOSS-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Deploying to C:/jboss-eap-6.4/
+
+
+  Creating JBoss server instance ShopAgent. View log file at C:/ATG/ATG11.2/
+home/../CIM/ log/cim.log
+  |. . |
+
+  >> Jboss App. Server Instance Created at: C:/jboss-eap-6.4/standalone\
+configuration\ShopAgent.xml
+
+  Executing runAssembler for ShopAgent. View log file at C:/ATG/ATG11.2/home/
+../CIM/ log/cim.log
+  |. . . . . . . . . . . . . . . . . . . . . . . . . . |
+
+  >> Ear created at C:/jboss-eap-6.4/standalone\deployments\ShopAgent\
+ShopAgent.ear
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopAgent -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin BIZUI Service.Ticketing Fulfillment DCS.AbandonedOrderServices
+DCS-CSR-UI DCS.TextSearch.Order.LiveIndex ContentMgmt.Endeca.Index
+DCS.Endeca.Index DCS-CSR-UI.Endeca REST
+
+
+  [D]  Deploy Service Agent Server ShopAgent.ear to JBoss - Done
+ *[R]  Register Datasources on JBoss
+  [A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------REGISTER DATASOURCES ON JBOSS--------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+-------JBOSS REGISTER DATASOURCES - SHOPAGENT-----------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Jboss Register Datasources - ShopAgent
+
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopAgent -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin BIZUI Service.Ticketing Fulfillment DCS.AbandonedOrderServices
+DCS-CSR-UI DCS.TextSearch.Order.LiveIndex ContentMgmt.Endeca.Index
+DCS.Endeca.Index DCS-CSR-UI.Endeca REST
+
+
+  [D]  Deploy Service Agent Server ShopAgent.ear to JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+ *[A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------JBOSS JDBC DRIVER JAR COPY-----------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+There are no jdbc drivers to copy to JBoss
+
+
+ *[C]  Copy File
+  [A]  Cancel
+
+ >
+
+  >> File successfully copied from C:/ATG/ATG11.2/MySQL/
+mysql-connector-java-5.1.15-bin.jar to C:\jboss-eap-6.4/standalone\deployments\
+ShopAgent\mysql-connector-java-5.1.15-bin.jar
+
+File successfully copied from C:/ATG/ATG11.2/MySQL/
+mysql-connector-java-5.1.15-bin.jar to C:\jboss-eap-6.4/standalone\deployments\
+ShopAgent\ShopAgent.ear\atglib\mysql-connector-java-5.1.15-bin.jar
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopAgent -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin BIZUI Service.Ticketing Fulfillment DCS.AbandonedOrderServices
+DCS-CSR-UI DCS.TextSearch.Order.LiveIndex ContentMgmt.Endeca.Index
+DCS.Endeca.Index DCS-CSR-UI.Endeca REST
+
+
+  [D]  Deploy Service Agent Server ShopAgent.ear to JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+  [A]  Add database driver to app server classpath - Done
+ *[P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------POST DEPLOYMENT OPTIONS--------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+ *[J]  JBoss JVM Optimization
+  [D]  Done
+
+ >
+
+-------JBOSS JVM OPTIMIZATION---------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+JBoss JVM Optimization
+
+
+ *[U]  Update JBoss standalone.conf.bat file
+  [C]  Cancel
+
+ >
+
+  >> JAVA_OPTS for optimized JBoss JVM settings configured at : C:/
+jboss-eap-6.4/bin\standalone.conf.bat
+
+-------POST DEPLOYMENT OPTIONS--------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [J]  JBoss JVM Optimization - Done
+ *[D]  Done
+
+ >
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopAgent -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin BIZUI Service.Ticketing Fulfillment DCS.AbandonedOrderServices
+DCS-CSR-UI DCS.TextSearch.Order.LiveIndex ContentMgmt.Endeca.Index
+DCS.Endeca.Index DCS-CSR-UI.Endeca REST
+
+
+  [D]  Deploy Service Agent Server ShopAgent.ear to JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+  [A]  Add database driver to app server classpath - Done
+  [P]  Post Deployment Actions on JBoss - Done
+  [E]  Edit runAssembler arguments
+ *[O]  Configure Another Server Instance
+
+ >
+
+-------DEPLOYMENT SERVER INSTANCE SELECTION-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [S]  ShopAgent - Service Agent Server - Done
+ *[P]  ShopProduction - Production with a Server Lock Manager
+  [W]  ShopPublishing - Publishing with a Server Lock Manager
   [D]  Done
 
  >
@@ -2356,9 +3401,11 @@ enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
 
-  [P]  Production
-  [U]  Publishing
- *[C]  CIM should create a new server for me.
+  [C]  CRSAgent
+  [R]  CRSProduction
+  [S]  CRSPublishing
+  [O]  ShopAgent
+ *[A]  CIM should create a new server for me.
 
  >
 
@@ -2392,9 +3439,10 @@ Current runAssembler arguments :
 
 Top Level Module List:
 
-DCS.AbandonedOrderServices DafEar.Admin DPS DSS ContentMgmt
-DCS.PublishingAgent ContentMgmt.Endeca.Index DCS.Endeca.Index PublishingAgent
-DCS.Endeca.Index.SKUIndexing REST Shop.StoreFront
+DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices
+DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index
+DCS.Endeca.Index REST DCS.Endeca.Index.SKUIndexing PublishingAgent
+Shop.Storefront
 
 
  *[D]  Deploy Production with a Server Lock Manager ShopProduction.ear to JBoss
@@ -2410,67 +3458,22 @@ DCS.Endeca.Index.SKUIndexing REST Shop.StoreFront
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
-Deploying to C:/JBoss/jboss-eap-6.1/
+Deploying to C:/jboss-eap-6.4/
 
 
   Creating JBoss server instance ShopProduction. View log file at C:/ATG/
-ATG11.1/home/../CIM/ log/cim.log
+ATG11.2/home/../CIM/ log/cim.log
   |. . |
 
-  >> Jboss App. Server Instance Created at: C:/JBoss/jboss-eap-6.1/standalone\
+  >> Jboss App. Server Instance Created at: C:/jboss-eap-6.4/standalone\
 configuration\ShopProduction.xml
 
-  Executing runAssembler for ShopProduction. View log file at C:/ATG/ATG11.1/
+  Executing runAssembler for ShopProduction. View log file at C:/ATG/ATG11.2/
 home/../CIM/ log/cim.log
-  |. . . . |
+  |. . . . . |
 
-  >> Ear created at C:/JBoss/jboss-eap-6.1/standalone\deployments\
-ShopProduction\ShopProduction.ear
-
--------DEPLOYMENT ERROR---------------------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-An error has occurred. Please check the log file for more information.
-The system cannot find the path specified
-
-
- *[C]  Cancel
-
- >
-
--------DEPLOYMENT SERVER INSTANCE SELECTION-------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
- *[S]  ShopProduction - Production with a Server Lock Manager
-  [P]  ShopPublishing - Publishing with a Server Lock Manager
-  [D]  Done
-
- >
-
--------ENTER EAR FILE NAME(S)---------------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
-   Enter Ear File Name for Production with a Server Lock Manager
-[[ShopProduction.ear]] >
-
--------SELECT JBOSS SERVER TO USE-----------------------------------------------
-enter [h]Help, [m]Main Menu, [q]Quit to exit
-
-
-
-  [P]  Production
-  [U]  Publishing
- *[S]  ShopProduction
-  [C]  CIM should create a new server for me.
-
- >
-
-  >> Server set to ShopProduction
+  >> Ear created at C:/jboss-eap-6.4/standalone\deployments\ShopProduction\
+ShopProduction.ear
 
 -------JBOSS DEPLOYMENT MENU----------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
@@ -2483,12 +3486,223 @@ Current runAssembler arguments :
 
 Top Level Module List:
 
-DCS.AbandonedOrderServices DafEar.Admin DPS DSS ContentMgmt
-DCS.PublishingAgent ContentMgmt.Endeca.Index DCS.Endeca.Index PublishingAgent
-DCS.Endeca.Index.SKUIndexing REST Shop.StoreFront
+DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices
+DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index
+DCS.Endeca.Index REST DCS.Endeca.Index.SKUIndexing PublishingAgent
+Shop.Storefront
 
 
- *[D]  Deploy Production with a Server Lock Manager ShopProduction.ear to JBoss
+  [D]  Deploy Production with a Server Lock Manager ShopProduction.ear to
+JBoss - Done
+ *[R]  Register Datasources on JBoss
+  [A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------REGISTER DATASOURCES ON JBOSS--------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+-------JBOSS REGISTER DATASOURCES - SHOPPRODUCTION------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Jboss Register Datasources - ShopProduction
+
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopProduction -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices
+DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index
+DCS.Endeca.Index REST DCS.Endeca.Index.SKUIndexing PublishingAgent
+Shop.Storefront
+
+
+  [D]  Deploy Production with a Server Lock Manager ShopProduction.ear to
+JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+ *[A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------JBOSS JDBC DRIVER JAR COPY-----------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+There are no jdbc drivers to copy to JBoss
+
+
+ *[C]  Copy File
+  [A]  Cancel
+
+ >
+
+  >> File successfully copied from C:/ATG/ATG11.2/MySQL/
+mysql-connector-java-5.1.15-bin.jar to C:\jboss-eap-6.4/standalone\deployments\
+ShopProduction\mysql-connector-java-5.1.15-bin.jar
+
+File successfully copied from C:/ATG/ATG11.2/MySQL/
+mysql-connector-java-5.1.15-bin.jar to C:\jboss-eap-6.4/standalone\deployments\
+ShopProduction\ShopProduction.ear\atglib\mysql-connector-java-5.1.15-bin.jar
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopProduction -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices
+DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index
+DCS.Endeca.Index REST DCS.Endeca.Index.SKUIndexing PublishingAgent
+Shop.Storefront
+
+
+  [D]  Deploy Production with a Server Lock Manager ShopProduction.ear to
+JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+  [A]  Add database driver to app server classpath - Done
+ *[P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------POST DEPLOYMENT OPTIONS--------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [J]  JBoss JVM Optimization - Done
+ *[D]  Done
+
+ >
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopProduction -jboss
+
+
+Top Level Module List:
+
+DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices
+DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index
+DCS.Endeca.Index REST DCS.Endeca.Index.SKUIndexing PublishingAgent
+Shop.Storefront
+
+
+  [D]  Deploy Production with a Server Lock Manager ShopProduction.ear to
+JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+  [A]  Add database driver to app server classpath - Done
+  [P]  Post Deployment Actions on JBoss - Done
+  [E]  Edit runAssembler arguments
+ *[O]  Configure Another Server Instance
+
+ >
+
+-------DEPLOYMENT SERVER INSTANCE SELECTION-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [S]  ShopAgent - Service Agent Server - Done
+  [P]  ShopProduction - Production with a Server Lock Manager - Done
+ *[W]  ShopPublishing - Publishing with a Server Lock Manager
+  [D]  Done
+
+ >
+
+-------ENTER EAR FILE NAME(S)---------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+   Enter Ear File Name for Publishing with a Server Lock Manager
+[[atg_publishing_lockserver.ear]] > ShopPublishing
+
+  >> "ShopPublishing" does not end with suffix ".ear"
+
+   Enter Ear File Name for Publishing with a Server Lock Manager
+[[ShopPublishing]] > ShopPublishing.ear
+
+-------SELECT JBOSS SERVER TO USE-----------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [C]  CRSAgent
+  [R]  CRSProduction
+  [S]  CRSPublishing
+  [O]  ShopAgent
+  [P]  ShopProduction
+ *[A]  CIM should create a new server for me.
+
+ >
+
+-------SELECT JBOSS SERVER TEMPLATE TO USE--------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+ *[S]  standalone.xml
+  [T]  standalone-full.xml
+  [A]  standalone-full-ha.xml
+  [N]  standalone-ha.xml
+  [D]  standalone-osgi.xml
+
+ >
+
+   Enter Name For Jboss Server:  [[ShopPublishing]] >
+
+  >> Template set to standalone.xml
+
+  >> Server set to ShopPublishing
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopPublishing -jboss
+
+
+Top Level Module List:
+
+DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned
+DCS-CSR.Management DCS.TextSearch.Order.Index DCS-UI.SiteAdmin.Versioned
+SiteAdmin.Versioned DCS.Versioned ContentMgmt.Endeca.Index.Versioned
+DCS.Endeca.Index.Versioned DAF.Endeca.Reader.Versioned
+WCSExtensions.Endeca.Reader.Versioned DCS.Endeca.Index.SKUIndexing
+Shop.EStore.Versioned
+
+
+ *[D]  Deploy Publishing with a Server Lock Manager ShopPublishing.ear to JBoss
   [R]  Register Datasources on JBoss
   [A]  Add database driver to app server classpath
   [P]  Post Deployment Actions on JBoss
@@ -2497,35 +3711,215 @@ DCS.Endeca.Index.SKUIndexing REST Shop.StoreFront
 
  >
 
--------DEPLOY PRODUCTION WITH A SERVER LOCK MANAGER TO JBOSS--------------------
+-------DEPLOY PUBLISHING WITH A SERVER LOCK MANAGER TO JBOSS--------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
-Deploying to C:/JBoss/jboss-eap-6.1/
+Deploying to C:/jboss-eap-6.4/
 
 
-  Creating JBoss server instance ShopProduction. View log file at C:/ATG/
-ATG11.1/home/../CIM/ log/cim.log
+  Creating JBoss server instance ShopPublishing. View log file at C:/ATG/
+ATG11.2/home/../CIM/ log/cim.log
   |. . |
 
-  >> Jboss App. Server Instance Created at: C:/JBoss/jboss-eap-6.1/standalone\
-configuration\ShopProduction.xml
+  >> Jboss App. Server Instance Created at: C:/jboss-eap-6.4/standalone\
+configuration\ShopPublishing.xml
 
-  Executing runAssembler for ShopProduction. View log file at C:/ATG/ATG11.1/
+  Executing runAssembler for ShopPublishing. View log file at C:/ATG/ATG11.2/
 home/../CIM/ log/cim.log
-  |. . . |
+  |. . . . . . . . . . . . . . . . . |
 
-  >> Ear created at C:/JBoss/jboss-eap-6.1/standalone\deployments\
-ShopProduction\ShopProduction.ear
+  >> Ear created at C:/jboss-eap-6.4/standalone\deployments\ShopPublishing\
+ShopPublishing.ear
 
--------DEPLOYMENT ERROR---------------------------------------------------------
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
 enter [h]Help, [m]Main Menu, [q]Quit to exit
 
 
-An error has occurred. Please check the log file for more information.
-The system cannot find the path specified
+Current runAssembler arguments :
+
+-server ShopPublishing -jboss
 
 
- *[C]  Cancel
+Top Level Module List:
+
+DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned
+DCS-CSR.Management DCS.TextSearch.Order.Index DCS-UI.SiteAdmin.Versioned
+SiteAdmin.Versioned DCS.Versioned ContentMgmt.Endeca.Index.Versioned
+DCS.Endeca.Index.Versioned DAF.Endeca.Reader.Versioned
+WCSExtensions.Endeca.Reader.Versioned DCS.Endeca.Index.SKUIndexing
+Shop.EStore.Versioned
+
+
+  [D]  Deploy Publishing with a Server Lock Manager ShopPublishing.ear to
+JBoss - Done
+ *[R]  Register Datasources on JBoss
+  [A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------REGISTER DATASOURCES ON JBOSS--------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+-------JBOSS REGISTER DATASOURCES - SHOPPUBLISHING------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Jboss Register Datasources - ShopPublishing
+
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopPublishing -jboss
+
+
+Top Level Module List:
+
+DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned
+DCS-CSR.Management DCS.TextSearch.Order.Index DCS-UI.SiteAdmin.Versioned
+SiteAdmin.Versioned DCS.Versioned ContentMgmt.Endeca.Index.Versioned
+DCS.Endeca.Index.Versioned DAF.Endeca.Reader.Versioned
+WCSExtensions.Endeca.Reader.Versioned DCS.Endeca.Index.SKUIndexing
+Shop.EStore.Versioned
+
+
+  [D]  Deploy Publishing with a Server Lock Manager ShopPublishing.ear to
+JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+ *[A]  Add database driver to app server classpath
+  [P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------JBOSS JDBC DRIVER JAR COPY-----------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+There are no jdbc drivers to copy to JBoss
+
+
+ *[C]  Copy File
+  [A]  Cancel
+
+ >
+
+  >> File successfully copied from C:/ATG/ATG11.2/MySQL/
+mysql-connector-java-5.1.15-bin.jar to C:\jboss-eap-6.4/standalone\deployments\
+ShopPublishing\mysql-connector-java-5.1.15-bin.jar
+
+File successfully copied from C:/ATG/ATG11.2/MySQL/
+mysql-connector-java-5.1.15-bin.jar to C:\jboss-eap-6.4/standalone\deployments\
+ShopPublishing\ShopPublishing.ear\atglib\mysql-connector-java-5.1.15-bin.jar
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopPublishing -jboss
+
+
+Top Level Module List:
+
+DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned
+DCS-CSR.Management DCS.TextSearch.Order.Index DCS-UI.SiteAdmin.Versioned
+SiteAdmin.Versioned DCS.Versioned ContentMgmt.Endeca.Index.Versioned
+DCS.Endeca.Index.Versioned DAF.Endeca.Reader.Versioned
+WCSExtensions.Endeca.Reader.Versioned DCS.Endeca.Index.SKUIndexing
+Shop.EStore.Versioned
+
+
+  [D]  Deploy Publishing with a Server Lock Manager ShopPublishing.ear to
+JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+  [A]  Add database driver to app server classpath - Done
+ *[P]  Post Deployment Actions on JBoss
+  [E]  Edit runAssembler arguments
+  [O]  Configure Another Server Instance
+
+ >
+
+-------POST DEPLOYMENT OPTIONS--------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [J]  JBoss JVM Optimization - Done
+ *[D]  Done
+
+ >
+
+-------JBOSS DEPLOYMENT MENU----------------------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+Current runAssembler arguments :
+
+-server ShopPublishing -jboss
+
+
+Top Level Module List:
+
+DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned
+DCS-CSR.Management DCS.TextSearch.Order.Index DCS-UI.SiteAdmin.Versioned
+SiteAdmin.Versioned DCS.Versioned ContentMgmt.Endeca.Index.Versioned
+DCS.Endeca.Index.Versioned DAF.Endeca.Reader.Versioned
+WCSExtensions.Endeca.Reader.Versioned DCS.Endeca.Index.SKUIndexing
+Shop.EStore.Versioned
+
+
+  [D]  Deploy Publishing with a Server Lock Manager ShopPublishing.ear to
+JBoss - Done
+  [R]  Register Datasources on JBoss - Done
+  [A]  Add database driver to app server classpath - Done
+  [P]  Post Deployment Actions on JBoss - Done
+  [E]  Edit runAssembler arguments
+ *[O]  Configure Another Server Instance
+
+ >
+
+-------DEPLOYMENT SERVER INSTANCE SELECTION-------------------------------------
+enter [h]Help, [m]Main Menu, [q]Quit to exit
+
+
+
+  [S]  ShopAgent - Service Agent Server - Done
+  [P]  ShopProduction - Production with a Server Lock Manager - Done
+  [W]  ShopPublishing - Publishing with a Server Lock Manager - Done
+ *[D]  Done
+
+ >
+
+=======CIM MAIN MENU============================================================
+enter [h]Help, [q]Quit to exit
+
+
+Choose the task you want to perform:
+
+
+  [1]  Configure OPSS Security - Done
+  [2]  Database Configuration - Done
+  [3]  Server Instance Configuration - Done
+  [4]  Application Assembly & Deployment - Done
+  [R]  Set the Administrator Password - Done
+  [P]  Product Selection - Done (Content Administration & Oracle Commerce Core
+Commerce & Oracle Commerce Platform-Guided Search Integration & Oracle
+Commerce Site Administration & Oracle Commerce CAS Reader & Oracle Commerce
+WebCenter Sites Extensions & Oracle Commerce REST & Oracle Commerce Service
+Center)
+  [A]  Select Application Server - Done (JBoss)
+ *[C]  Custom CIM Plugin Launcher
 
  >
