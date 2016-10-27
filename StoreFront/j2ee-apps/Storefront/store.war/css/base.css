@@ -1,0 +1,13 @@
+.main {
+	width: 980px;
+    margin: 0 auto;
+}
+
+.padding5{
+	padding: 5px;
+}
+
+.banner {
+	border-style: ridge;
+	height: 200px;
+}

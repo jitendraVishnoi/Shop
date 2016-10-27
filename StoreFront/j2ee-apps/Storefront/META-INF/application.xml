@@ -5,7 +5,7 @@
 	<display-name>Storefront</display-name>
 	<module>
 		<web>
-			<web-uri>store.war.war</web-uri>
+			<web-uri>store.war</web-uri>
 			<context-root>shop</context-root>
 		</web>
 	</module>

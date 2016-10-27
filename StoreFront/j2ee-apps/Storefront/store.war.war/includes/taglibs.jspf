@@ -1,6 +1,0 @@
-<%-- 
-  This file is to include by all Shop tags implementations (as "pageContainer.tag").
---%>
-<%@ taglib prefix="dsp" uri="/WEB-INF/lib/dspjspTaglib1_0.jar" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="shop" tagdir="/WEB-INF/tags/store" %>
