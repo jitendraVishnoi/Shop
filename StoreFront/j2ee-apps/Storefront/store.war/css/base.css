@@ -1,13 +1,19 @@
 .main {
 	width: 980px;
     margin: 0 auto;
+    background-color: lavender;
 }
 
 .padding5{
 	padding: 5px;
+	width: 10%;
 }
 
 .banner {
 	border-style: ridge;
 	height: 200px;
+}
+
+.main-content {
+    background-color: white;
 }
