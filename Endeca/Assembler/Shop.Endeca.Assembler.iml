@@ -233,5 +233,15 @@
       </library>
     </orderEntry>
     <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$ATG$/DAF/Endeca/Assembler/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$ATG$/DAF/Endeca/Assembler/lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

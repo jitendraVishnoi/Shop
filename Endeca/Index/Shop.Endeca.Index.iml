@@ -21,7 +21,7 @@
     <varelement var="file://$ATG$/DAS/lib/validation-api-1.0.0.GA.jar" value="ATG/DAS/lib/validation-api-1.0.0.GA.jar" />
     <src_description expected_position="0" />
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/bin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$" />

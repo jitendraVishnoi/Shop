@@ -25,7 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="resources.jar">
         <CLASSES>
           <root url="file://$ATG$/DSS/lib/resources.jar" />
@@ -34,7 +34,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="classes.jar">
         <CLASSES>
           <root url="file://$ATG$/DSS/lib/classes.jar" />
@@ -43,7 +43,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="ATG/DPS/lib/resources.jar">
         <CLASSES>
           <root url="file://$ATG$/DPS/lib/resources.jar" />
@@ -52,7 +52,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="ATG/DPS/lib/classes.jar">
         <CLASSES>
           <root url="file://$ATG$/DPS/lib/classes.jar" />
@@ -61,7 +61,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="ATG/DAS/lib/resources.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/resources.jar" />
@@ -70,7 +70,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="ATG/DAS/lib/classes.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/classes.jar" />
@@ -79,7 +79,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="servlet.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/servlet.jar" />
@@ -88,7 +88,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="jsp-api.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/jsp-api.jar" />
@@ -97,7 +97,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="ice.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/ice.jar" />
@@ -106,7 +106,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="cglib-nodep-2.1_3.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/cglib-nodep-2.1_3.jar" />
@@ -115,7 +115,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="spring-aop-1.2-rc1.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/spring-aop-1.2-rc1.jar" />
@@ -124,7 +124,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="jline-0.9.94.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/jline-0.9.94.jar" />
@@ -133,7 +133,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="validation-api-1.0.0.GA.jar">
         <CLASSES>
           <root url="file://$ATG$/DAS/lib/validation-api-1.0.0.GA.jar" />
@@ -143,5 +143,14 @@
       </library>
     </orderEntry>
     <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$ATG$/DCS/lib/classes.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
