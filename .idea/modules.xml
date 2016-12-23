@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EStore/Shop.EStore.iml" filepath="$PROJECT_DIR$/EStore/Shop.EStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStore/Versioned/Shop.EStore.Versioned.iml" filepath="$PROJECT_DIR$/EStore/Versioned/Shop.EStore.Versioned.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Endeca/Assembler/Shop.Endeca.Assembler.iml" filepath="$PROJECT_DIR$/Endeca/Assembler/Shop.Endeca.Assembler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Endeca/Base/Shop.Endeca.Base.iml" filepath="$PROJECT_DIR$/Endeca/Base/Shop.Endeca.Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Endeca/Index/Shop.Endeca.Index.iml" filepath="$PROJECT_DIR$/Endeca/Index/Shop.Endeca.Index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StoreFront/Shop.StoreFront.iml" filepath="$PROJECT_DIR$/StoreFront/Shop.StoreFront.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Shop.core.iml" filepath="$PROJECT_DIR$/core/Shop.core.iml" />
+    </modules>
+  </component>
+</project>
