@@ -17,3 +17,12 @@
 .main-content {
     background-color: white;
 }
+
+.searchBox {
+    float: right;
+    width: 220px;
+}
+
+.clearFloat {
+    clear: both;
+}
