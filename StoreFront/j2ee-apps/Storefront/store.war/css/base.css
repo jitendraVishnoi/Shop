@@ -26,3 +26,7 @@
 .clearFloat {
     clear: both;
 }
+
+.leftPadding25px {
+ padding-left: 25px;
+}

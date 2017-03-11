@@ -1,0 +1,115 @@
+<component name="libraryTable">
+  <library name="ATG">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../AssetUI" />
+      <root url="file://$PROJECT_DIR$/../DCS-UI" />
+      <root url="file://$PROJECT_DIR$/../DPS-UI" />
+      <root url="file://$PROJECT_DIR$/../BIZUI" />
+      <root url="file://$PROJECT_DIR$/../WSRP" />
+      <root url="file://$PROJECT_DIR$/../DSSJ2EEDemo" />
+      <root url="file://$PROJECT_DIR$/../CRS" />
+      <root url="file://$PROJECT_DIR$/../Portal" />
+      <root url="file://$PROJECT_DIR$/../PubPortlet" />
+      <root url="file://$PROJECT_DIR$/../Tomcat" />
+      <root url="file://$PROJECT_DIR$/../WebUI" />
+      <root url="file://$PROJECT_DIR$/../home" />
+      <root url="file://$PROJECT_DIR$/../MySQL" />
+      <root url="file://$PROJECT_DIR$/../DAS/lib" />
+      <root url="file://$PROJECT_DIR$/../DAF/Endeca/Assembler/lib" />
+      <root url="file://$PROJECT_DIR$/../DAF/Endeca/Base/lib" />
+      <root url="file://$PROJECT_DIR$/../DAF/Endeca/Index/lib" />
+      <root url="file://$PROJECT_DIR$/../DAF/Endeca/Assembler/lib" />
+      <root url="jar://$PROJECT_DIR$/../DCS/config/config.jar!/" />
+      <root url="file://$PROJECT_DIR$/../DPS/config" />
+      <root url="file://$PROJECT_DIR$/../DPS/config" />
+      <root url="file://$PROJECT_DIR$/../DPS/lib" />
+      <root url="file://$PROJECT_DIR$/../DCS/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../CRS/src" />
+      <root url="file://$PROJECT_DIR$/../CommerceGears/orderstatus/src/classes.jar" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/DCS-CSR/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/EStore/International/Versioned/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/EStore/International/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/EStore/Versioned/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/EStore/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Endeca/Assembler/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Endeca/Index/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Endeca/International/Index/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Fluoroscope/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Fulfillment/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/KnowledgeBase/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/DCS-CSR/Endeca/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/DCS-CSR/Fulfillment/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/DCS-CSR/MPOS/REST/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/DCS-CSR/MPOS/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/DCS-CSR/REST/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/DCS-CSR/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/REST/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Mobile/src/Java" />
+      <root url="file://$PROJECT_DIR$/../CommerceReferenceStore/Store/Recommendations/src/Java" />
+      <root url="file://$PROJECT_DIR$/../DAS/src/Java" />
+      <root url="file://$PROJECT_DIR$/../DCS/src/Java" />
+      <root url="file://$PROJECT_DIR$/../DPS/src/Java" />
+      <root url="file://$PROJECT_DIR$/../DafEar/Tomcat/atomikos/java" />
+      <root url="file://$PROJECT_DIR$/../MotorpriseJSP/src/Java" />
+      <root url="file://$PROJECT_DIR$/../Portal/alert/src/alertTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/alert/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/bookmarks/src/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/calendar/src/calendarTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/calendar/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/discussion/src/classes.jar" />
+      <root url="file://$PROJECT_DIR$/../Portal/discussion/src/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/docexch/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/docexch/src/docexch.war/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/docexch/src/docexchTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/poll/src/classes.jar" />
+      <root url="file://$PROJECT_DIR$/../Portal/poll/src/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/quicklinks/src/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/repview/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/repview/src/repviewTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/screenscraper/src/classes.jar" />
+      <root url="file://$PROJECT_DIR$/../Portal/screenscraper/src/screenscraperTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/search/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/slotgear/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/soapclient/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/soapclient/src/soapclientTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/xmlfeed/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/xmlfeed/src/xmlfeedTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/xmlfeed/src/xtagsTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/xmlprotocol/src/classes.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portal/xmlprotocol/src/xmlprotocolTaglib.jar/src" />
+      <root url="file://$PROJECT_DIR$/../Portlet/helloworld/src" />
+      <root url="file://$PROJECT_DIR$/../Portlet/slot/src" />
+      <root url="file://$PROJECT_DIR$/../PubPortlet/src" />
+      <root url="file://$PROJECT_DIR$/../SQLJMSAdmin/j2ee-apps/sqlJmsAdmin/ejbModule" />
+      <root url="file://$PROJECT_DIR$/../SQLJMSAdmin/j2ee-apps/sqlJmsAdmin/idgenEjb" />
+      <root url="file://$PROJECT_DIR$/../SQLJMSAdmin/j2ee-apps/sqlJmsAdmin/webModule/WEB-INF/classes" />
+      <root url="file://$PROJECT_DIR$/../Tomcat/apache-tomcat-7.0.37/webapps/docs/appdev/sample/src" />
+      <root url="file://$PROJECT_DIR$/../Tomcat/apache-tomcat-7.0.37/webapps/examples/WEB-INF/classes" />
+      <root url="file://$PROJECT_DIR$/../Tomcat/apache-tomcat-7.0.37/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://$PROJECT_DIR$/../Tomcat/apache-tomcat-7.0.37/webapps/examples/jsp/plugin/applet" />
+      <root url="file://$PROJECT_DIR$/../WebUI/j2ee-apps/WebUI.ear/dojo-1-6-2.war/util/buildscripts/webbuild/server/src" />
+      <root url="file://$PROJECT_DIR$/../WebUI/j2ee-apps/WebUI.ear/dojo-1-6-2.war/util/doh/robot" />
+      <root url="file://$PROJECT_DIR$/../WebUI/j2ee-apps/WebUI.ear/dojo-1-6-2.war/util/shrinksafe/src" />
+      <root url="file://$PROJECT_DIR$/../home/servers/CRSProduction/pagebuild" />
+      <root url="file://$PROJECT_DIR$/../home/servers/CRSPublishing/pagebuild" />
+      <root url="file://$PROJECT_DIR$/../home/servers/ShopProduction/pagebuild" />
+      <root url="file://$PROJECT_DIR$/../home/servers/ShopPublishing/pagebuild" />
+      <root url="file://$PROJECT_DIR$/../DAS/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../DAF/Endeca/Assembler/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DAF/Endeca/Assembler/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DAF/Endeca/Base/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DAF/Endeca/Index/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DAS/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DCS/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DPS/config" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DPS/config" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DPS/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../MySQL" recursive="false" />
+    <jarDirectory url="jar://$PROJECT_DIR$/../DCS/config/config.jar!/" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../DAS/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

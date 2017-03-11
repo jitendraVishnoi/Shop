@@ -13,8 +13,21 @@
 		same session scope with this servlet. <context-param> <param-name>atg.session.parentContextName</param-name> 
 		<param-value>/dyn</param-value> </context-param> -->
 	<!-- If context-root is set here, then ServletContextWebAppRegistry will 
-		use this setting as the context-root for this WebApp. This must match the 
+		use this setting as the context-root for this WebApp. This must match the
 		context-root setting in application.xml. -->
+
+<!--	Each war should have below 2 entry SessionNameContextServlet entry. So that they share same
+	session scoped components. This is not related with http session-->
+	<context-param>
+		<param-name>atg.session.parentContextName</param-name>
+		<param-value>/dyn</param-value>
+	</context-param>
+	<context-param>
+		<param-name>atg.dafear.bootstrapContextName</param-name>
+		<param-value>/dyn</param-value>
+		<description>The name of the DAF bootstrap WAR context.</description>
+	</context-param>
+
 	<context-param>
 		<param-name>context-root</param-name>
 		<param-value>shop</param-value>

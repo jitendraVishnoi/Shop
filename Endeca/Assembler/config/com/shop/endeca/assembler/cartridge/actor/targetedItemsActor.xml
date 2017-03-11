@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actor-template default-chain-id="getTargetedItems" xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actor-chain id="getTargetedItems" transaction="TX_SUPPORTS">
+
+        <!-- Decide whether to use targetingRandom or targetingForEach to target items
+         and then return the targeted items -->
+        <actor id="targeterSwitch" chain-id="targeterSwitch" name="/atg/targeting/TargetingServicesActor" return-model-var="items">
+            <input name="randomize" value="${randomize}"/>
+            <input name="componentPath" value="${componentPath}"/>
+            <input name="count" value="${count}"/>
+            <input name="fireViewItemEvent" value="false"/>
+
+            <output id="items" name="items" value="${items.items}"/>
+        </actor>
+
+    </actor-chain>
+
+</actor-template>

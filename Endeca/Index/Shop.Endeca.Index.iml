@@ -44,6 +44,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" name="AssetUI" level="project" />
+    <orderEntry type="library" name="ATG" level="project" />
   </component>
 </module>

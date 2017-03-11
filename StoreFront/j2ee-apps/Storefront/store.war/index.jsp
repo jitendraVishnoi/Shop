@@ -1,5 +1,5 @@
 <dsp:page>
-<dsp:importbean bean="/atg/endeca/assembler/droplet/InvokeAssembler"/>
+<!--<dsp:importbean bean="/atg/endeca/assembler/droplet/InvokeAssembler"/>
 
 
 
@@ -9,7 +9,8 @@
 		<dsp:getvalueof var="homePageContent" vartype="com.endeca.infront.assembler.ContentItem" param="contentItem" />
 	</dsp:oparam>
 </dsp:droplet>
-
+-->
 
 	<dsp:renderContentItem contentItem="${homePageContent}" />
+
 </dsp:page>
