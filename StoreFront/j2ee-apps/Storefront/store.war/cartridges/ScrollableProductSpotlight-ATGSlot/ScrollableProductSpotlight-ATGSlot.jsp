@@ -9,13 +9,16 @@
   	    </dsp:oparam>
   	    <dsp:oparam name="output">
   	        <td class="leftPadding25px">
-                <div><dsp:valueof param="element.displayName"/></div>
-                <dsp:getvalueof param="element.thumbnailImage.url" var="imgPath"/>
-                <dsp:img page="${imgPath}"/>
-                <div>
-                    <dsp:valueof param="element.lowestSalePrice"/>
-                    <dsp:valueof param="element.currencyCode"/>
-                </div>
+  	            <dsp:getvalueof param="element.id" var="id"/>
+  	            <a href='<c:url value="/product/details/${id}"/>'>
+                    <div class="center-align"><dsp:valueof param="element.displayName"/></div>
+                    <dsp:getvalueof param="element.thumbnailImage.url" var="imgPath"/>
+                    <div><dsp:img page="${imgPath}" iclass="center-align"/></div>
+                    <div class="center-align">
+                        <dsp:valueof param="element.lowestSalePrice"/>
+                        <dsp:valueof param="element.currencyCode"/>
+                    </div>
+                </a>
             </td>
   	    </dsp:oparam>
   	    <dsp:oparam name="outputEnd">
