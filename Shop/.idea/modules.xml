@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Endeca/Assembler/Assembler.iml" filepath="$PROJECT_DIR$/Endeca/Assembler/Assembler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Endeca/Base/Base.iml" filepath="$PROJECT_DIR$/Endeca/Base/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStore/EStore.iml" filepath="$PROJECT_DIR$/EStore/EStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Endeca/Index/Index.iml" filepath="$PROJECT_DIR$/Endeca/Index/Index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StoreFront/StoreFront.iml" filepath="$PROJECT_DIR$/StoreFront/StoreFront.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStore/Versioned/Versioned.iml" filepath="$PROJECT_DIR$/EStore/Versioned/Versioned.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+    </modules>
+  </component>
+</project>

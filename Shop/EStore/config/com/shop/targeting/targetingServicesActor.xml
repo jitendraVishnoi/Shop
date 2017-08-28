@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actor-template default-chain-id="executeTargeter" xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actor-chain id="executeTargeter" transaction="TX_SUPPORTS">
+        <component id="targetingServices" name="/atg/targeting/TargetingServices" method-return-var="result" invoke-method-requires-session-confirmation="true" method="executeRepositoryTargeterItems" set-property-requires-session-confirmation="true">
+            <input name="pTargeterPath" value="${currentContent.componentPath}" class-name="java.lang.String"/>
+            <output id="targeterResults" filter-id="short" name="targeterResults" value="${result}"/>
+        </component>
+        <droplet id="forEach" var="forEach" name="/atg/dynamo/droplet/ForEach">
+            <input name="array" value="${result}"/>
+            <oparam name="output">
+                <output id="itemDescriptorName" name="targeterResults[${forEach.index}].itemDescriptorName" value="${forEach.element.itemDescriptor.itemDescriptorName}"/>
+                <droplet id="switch" var="switch" name="/atg/dynamo/droplet/Switch">
+                    <input name="value" value="${forEach.element.itemDescriptor.itemDescriptorName}"/>
+                    <oparam name="product">
+
+                        <!-- price ranges for sale and list price lists -->
+                        <actor id="productPriceRanges" chain-id="productPriceRanges" name="/atg/commerce/pricing/PricingActor" return-model-var="productPriceRanges">
+                            <input name="productId" value="${forEach.element.repositoryId}"/>
+                            <output id="priceRanges" name="targeterResults[${forEach.index}]" value="${productPriceRanges}" add-map-children="true"/>
+                        </actor>
+                        <droplet id="currencyCodeDroplet" var="currencyCode" name="/atg/commerce/pricing/CurrencyCodeDroplet">
+                            <input name="locale" value="${nucleus['/atg/userprofiling/Profile'].priceList.locale}"/>
+                            <oparam name="output">
+                                <output id="currencyCode" name="targeterResults[${forEach.index}].currencyCode" value="${currencyCode.currencyCode}"/>
+                            </oparam>
+                        </droplet>
+                    </oparam>
+                </droplet>
+            </oparam>
+        </droplet>
+    </actor-chain>
+
+
+    <!--
+  Chooses whether to execute targetingRandom or targetingForEach based on the input "randomize"
+
+  input: randomize - boolean.  true if should execute targetingRandom.  False or undefined otherwise
+  input: count - integer. Number of items for the targeter to return
+  input: componentPath. Name of the targeter to for targetingRandom or targetingForEach to use
+
+  output: targeterResults. Array of targeted items
+   -->
+    <actor-chain id="targeterSwitch" transaction="TX_SUPPORTS">
+        <droplet id="switch" var="switch" name="/atg/dynamo/droplet/Switch">
+            <input name="value" value="${randomize}"/>
+            <oparam name="true">
+                <droplet id="targetingRandom" var="random" name="/atg/targeting/TargetingRandom">
+                    <input name="howmany" value="${count}"/>
+                    <input name="targeter" value="${nucleus[componentPath]}"/>
+                    <input name="fireViewItemEvent" value="false"/>
+                    <oparam name="output">
+                        <output id="targeterResults" name="targeterResults[${random.index}]" value="${random.element}"/>
+                    </oparam>
+                </droplet>
+            </oparam>
+            <oparam name="default">
+                <droplet id="targetingForEach" var="forEach" name="/atg/targeting/TargetingForEach">
+                    <input name="maxNumber" value="${count}"/>
+                    <input name="targeter" value="${nucleus[componentPath]}"/>
+                    <input name="fireViewItemEvent" value="false"/>
+                    <oparam name="output">
+                        <output id="targeterResults" name="targeterResults[${forEach.index}]" value="${forEach.element}"/>
+                    </oparam>
+                </droplet>
+            </oparam>
+        </droplet>
+
+    </actor-chain>
+
+</actor-template>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  input: currentContentItem.randomizeItems - boolean.  true if should execute targetingRandom.  False or undefined otherwise
+  input: currentContentItem.itemCount - integer. Number of items for the targeter to return
+  input: currentContentItem.componentPath - String. Name of the targeter to for targetingRandom or targetingForEach to use
+  input: currentContentItem.pathPrefix. - String. prefix of the component referenced by component path.
+  input: currentContentItem.repository -Repository. Repository that the targeted items should be contaianed in
+
+  output: an array of item data (differs for product and promotional content) as an array named "items"
+ -->
+<actor-template default-chain-id="executeTargeter" xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actor-chain id="executeTargeter" transaction="TX_SUPPORTS">
+
+        <actor id="getTargetedItems" chain-id="getTargetedItems" name="/com/shop/endeca/assembler/cartridge/actor/TargetedItemsActor" return-model-var="items">
+            <input name="randomize" value="${currentContentItem.randomizeItems}"/>
+            <input name="componentPath" value="${currentContentItem.componentPath}"/>
+            <input name="count" value="${currentContentItem.itemCount}"/>
+            <input name="repositoryName" value="${currentContentItem.repository.repositoryName}"/>
+
+
+            <!-- Output items -->
+            <output id="items" name="items" value="${items.items}"/>
+        </actor>
+
+    </actor-chain>
+</actor-template>

@@ -1,0 +1,12 @@
+<!-- add list price range -->
+<actor-chain id="productPriceRanges">
+    <droplet id="ListPriceRangeDroplet" name="/atg/commerce/pricing/PriceRangeDroplet" var="PriceRangeDroplet">
+        <input name="productId" value="${productId != null ? productId : param.productId}" />
+        <!-- we override the salePriceList to be the listPriceList, to retrieve list prices -->
+        <input name="salePriceList" value="${nucleus['/atg/userprofiling/Profile'].priceList}" />
+        <oparam name="output">
+            <output id="lowestListPrice" name="lowestListPrice" value="${PriceRangeDroplet.lowestPrice}" />
+            <output id="lowestListPrice" name="highestListPrice" value="${PriceRangeDroplet.highestPrice}" />
+        </oparam>
+    </droplet>
+</actor-chain>

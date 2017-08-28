@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE process SYSTEM "dynamosystemresource:/atg/dtds/pdl/pdl_1.0.dtd">
+<process author="admin" creation-time="1483891533711" enabled="true" last-modified-by="admin" modification-time="1487418286439">
+  <segment migrate-subjects="true">
+    <segment-name>sku</segment-name>
+    <!--================================-->
+    <!--== Items requested by slot ShopFeaturedProducts  -->
+    <!--================================-->
+    <event id="1">
+      <event-name>atg.dss.SlotItemRequest</event-name>
+      <filter operator="eq">
+        <event-property>
+          <property-name>slotName</property-name>
+        </event-property>
+        <constant>/atg/registry/Slots/ShopFeaturedProducts</constant>
+      </filter>
+    </event>
+    <!--================================-->
+    <!--== Add items to slot named ShopFeaturedProducts from targeter ShopFeaturedProducts  -->
+    <!--================================-->
+    <action id="2">
+      <action-name>fillSlot</action-name>
+      <action-param name="slot">
+        <nucleus-property>
+          <nucleus-path>/atg/registry/Slots/ShopFeaturedProducts</nucleus-path>
+        </nucleus-property>
+      </action-param>
+      <action-param name="targeter">
+        <nucleus-property>
+          <nucleus-path>/atg/registry/RepositoryTargeters/shop/ShopFeaturedProducts</nucleus-path>
+        </nucleus-property>
+      </action-param>
+    </action>
+    <stop id="3"/>
+  </segment>
+</process>

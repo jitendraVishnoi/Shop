@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+ATG-Config-Path: config/
+ATG-Required: DAS DPS DSS Shop.core DAS Shop.Endeca.Base Shop.Endeca.Assembler
+ATG-Class-Path: bin

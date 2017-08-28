@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+ATG-Required: DAS DPS DSS Shop.EStore DAS Shop.Endeca.Assembler Shop.Endeca.Index
+ATG-J2EE: j2ee-apps/Storefront
+ATG-EAR-Module: j2ee-apps/Storefront
+ATG-Class-Path: bin

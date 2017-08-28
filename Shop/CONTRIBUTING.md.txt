@@ -1,0 +1,2 @@
+master is updated after branch had been cut, it non conflicting.
+master is already in conflicting update with other branch

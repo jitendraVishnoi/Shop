@@ -1,0 +1,9 @@
+<item item-descriptor-name="product">
+    <item property-name="childSKUs">
+        <item property-name="thumbnailImage">
+            <properties>
+                <property name="url" subtype="media" text-searchable="false" type="string"/>
+            </properties>
+        </item>
+    </item>
+</item>

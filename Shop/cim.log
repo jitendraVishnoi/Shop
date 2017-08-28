@@ -1,0 +1,863 @@
+**** info	Tue Aug 15 11:12:09 +05:30 2017	1502775729039	/atg/dynamo/security/opss/OPSSInitializer	The Java Platform Services (JPS) have been started in JSE mode.
+**** info	Tue Aug 15 11:12:09 +05:30 2017	1502775729091	/atg/dynamo/security/opss/csf/CredentialStoreManager	Credential Store services are enabled and running
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803012	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803012	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803013	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803013	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803013	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803013	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803013	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803014	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/seo/SEORepository_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803014	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/repository/dynamic/DynamicMetadataRepository_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803014	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/multisite/SiteRepository_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803014	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/userprofiling/PersonalizationRepository_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803014	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/content/ContentManagementRepository_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803015	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/server/SQLRepositoryEventServer.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803015	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803017	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/search/config/LanguageDimensionService.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803017	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803019	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/ApplicationConfiguration.properties
+**** Warning	Tue Aug 15 11:13:23 +05:30 2017	1502775803019	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	The workbenchHostName property is set to null.
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803020	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803020	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/content/search/MediaContentOutputConfig.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803020	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/content/search/ArticleOutputConfig.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803021	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/pricing/priceLists/PriceLists_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803021	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/catalog/ProductCatalog_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803021	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/locations/LocationRepository_production.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803021	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/search/ProductCatalogOutputConfig.properties
+**** info	Tue Aug 15 11:13:23 +05:30 2017	1502775803021	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/endeca/index/CategoryToDimensionOutputConfig.properties
+**** debug	Tue Aug 15 11:13:31 +05:30 2017	1502775811553	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:13:31 +05:30 2017	1502775811554	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:13:32 +05:30 2017	1502775812768	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:13:32 +05:30 2017	1502775812768	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:13:35 +05:30 2017	1502775815395	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:13:35 +05:30 2017	1502775815395	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:30 +05:30 2017	1502776650186	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:30 +05:30 2017	1502776650186	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:31 +05:30 2017	1502776651019	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:31 +05:30 2017	1502776651020	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:32 +05:30 2017	1502776652198	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:32 +05:30 2017	1502776652198	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:38 +05:30 2017	1502776658717	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:38 +05:30 2017	1502776658717	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:45 +05:30 2017	1502776665205	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:45 +05:30 2017	1502776665205	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:45 +05:30 2017	1502776665205	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:46 +05:30 2017	1502776666279	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:46 +05:30 2017	1502776666280	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:47 +05:30 2017	1502776667467	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:47 +05:30 2017	1502776667467	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:27:52 +05:30 2017	1502776672315	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:27:52 +05:30 2017	1502776672315	/cim/framework/ui/TextDisplay	continue processing is true
+**** Warning	Tue Aug 15 11:27:52 +05:30 2017	1502776672345	atg.cim.worker.status.StatusUpdateValidator	Status id management-ServerInstanceTypeConfigurationTemplate is unknown.
+**** debug	Tue Aug 15 11:28:42 +05:30 2017	1502776722453	/cim/framework/ui/TextDisplay	ServerInstanceNotInListValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:42 +05:30 2017	1502776722453	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:28:43 +05:30 2017	1502776723217	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/Configuration.properties
+**** info	Tue Aug 15 11:28:43 +05:30 2017	1502776723221	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/Initial.properties
+**** info	Tue Aug 15 11:28:43 +05:30 2017	1502776723221	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/ServerLockManager.properties
+**** info	Tue Aug 15 11:28:43 +05:30 2017	1502776723221	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/ClientLockManager.properties
+**** info	Tue Aug 15 11:28:43 +05:30 2017	1502776723222	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/server/OPSSInitializer.properties
+**** debug	Tue Aug 15 11:28:52 +05:30 2017	1502776732549	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:52 +05:30 2017	1502776732549	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:28:53 +05:30 2017	1502776733678	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:53 +05:30 2017	1502776733679	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:28:54 +05:30 2017	1502776734675	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:54 +05:30 2017	1502776734675	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:28:57 +05:30 2017	1502776737525	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:57 +05:30 2017	1502776737525	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:28:58 +05:30 2017	1502776738446	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:58 +05:30 2017	1502776738446	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:28:59 +05:30 2017	1502776739735	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:28:59 +05:30 2017	1502776739735	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:29:00 +05:30 2017	1502776740624	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:29:00 +05:30 2017	1502776740624	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:29:00 +05:30 2017	1502776740626	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/Configuration.properties
+**** info	Tue Aug 15 11:29:00 +05:30 2017	1502776740633	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/Initial.properties
+**** debug	Tue Aug 15 11:29:02 +05:30 2017	1502776742303	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:29:02 +05:30 2017	1502776742303	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742304	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/ServerLockManager.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742307	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/ClientLockManager.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742312	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/server/OPSSInitializer.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742382	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/content/ContentManagementRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742382	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/seo/SEORepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742382	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/content/search/ArticleOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742382	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742382	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/multisite/SiteRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/server/SQLRepositoryEventServer.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/catalog/ProductCatalog_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/pricing/priceLists/PriceLists_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742383	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/search/config/LanguageDimensionService.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/search/ProductCatalogOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/userprofiling/PersonalizationRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/ApplicationConfiguration.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/endeca/index/CategoryToDimensionOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/repository/dynamic/DynamicMetadataRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742384	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/content/search/MediaContentOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742385	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/locations/LocationRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742385	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742385	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742385	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/content/ContentManagementRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742388	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/seo/SEORepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742391	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/content/search/ArticleOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742393	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742396	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742405	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742411	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742418	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/multisite/SiteRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742422	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/server/SQLRepositoryEventServer.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742429	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/commerce/catalog/ProductCatalog_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742432	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/commerce/pricing/priceLists/PriceLists_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742435	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742438	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742441	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742444	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/search/config/LanguageDimensionService.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742447	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/commerce/search/ProductCatalogOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742451	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/userprofiling/PersonalizationRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742454	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/endeca/ApplicationConfiguration.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742457	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/commerce/endeca/index/CategoryToDimensionOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742464	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/repository/dynamic/DynamicMetadataRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742466	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742469	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/content/search/MediaContentOutputConfig.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742472	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/commerce/locations/LocationRepository_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742475	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:29:02 +05:30 2017	1502776742477	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopPublishing/localconfig/atg/dynamo/service/jdbc/JTDataSource_production.properties
+**** debug	Tue Aug 15 11:30:35 +05:30 2017	1502776835356	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:30:35 +05:30 2017	1502776835356	/cim/framework/ui/TextDisplay	ModuleNameValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:30:35 +05:30 2017	1502776835356	/cim/framework/ui/TextDisplay	ModuleNotInListValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:30:35 +05:30 2017	1502776835357	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/seo/SEORepository.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/repository/dynamic/DynamicMetadataRepository.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/multisite/SiteRepository.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/userprofiling/PersonalizationRepository.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/content/ContentManagementRepository.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/GSAInvalidatorService.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/search/config/LanguageDimensionService.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/epub/DeploymentAgent.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/epub/file/ConfigFileSystem.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/tracking/UsageTrackingService.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855202	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/servlet/dafpipeline/DynamoHandler.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855202	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/servlet/adminpipeline/AdminHandler.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855202	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/Initial.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855202	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855203	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/ApplicationConfiguration.properties
+**** Warning	Tue Aug 15 11:30:55 +05:30 2017	1502776855203	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	The workbenchHostName property is set to null.
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855204	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855204	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/servlet/dafpipeline/AccessControlServlet.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855208	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/pricing/priceLists/PriceLists.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855209	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/catalog/ProductCatalog.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855209	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/locations/LocationRepository.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855209	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/SMTPEmail.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855210	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager_production.properties
+**** info	Tue Aug 15 11:30:55 +05:30 2017	1502776855210	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager.properties
+**** debug	Tue Aug 15 11:30:56 +05:30 2017	1502776856921	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:30:56 +05:30 2017	1502776856921	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:30:59 +05:30 2017	1502776859346	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:30:59 +05:30 2017	1502776859346	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:31:00 +05:30 2017	1502776860126	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:00 +05:30 2017	1502776860126	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:31:00 +05:30 2017	1502776860694	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:00 +05:30 2017	1502776860694	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:31:01 +05:30 2017	1502776861816	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:01 +05:30 2017	1502776861817	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:31:08 +05:30 2017	1502776868180	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:08 +05:30 2017	1502776868180	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:08 +05:30 2017	1502776868180	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:31:34 +05:30 2017	1502776894642	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:34 +05:30 2017	1502776894642	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:31:37 +05:30 2017	1502776897803	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:31:37 +05:30 2017	1502776897803	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:04 +05:30 2017	1502776924039	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:04 +05:30 2017	1502776924039	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:05 +05:30 2017	1502776925748	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:05 +05:30 2017	1502776925748	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:06 +05:30 2017	1502776926958	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:06 +05:30 2017	1502776926959	/cim/framework/ui/TextDisplay	continue processing is true
+**** Warning	Tue Aug 15 11:32:06 +05:30 2017	1502776926965	atg.cim.worker.status.StatusUpdateValidator	Status id production-ServerInstanceTypeConfigurationTemplate is unknown.
+**** debug	Tue Aug 15 11:32:22 +05:30 2017	1502776942461	/cim/framework/ui/TextDisplay	ServerInstanceNotInListValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:22 +05:30 2017	1502776942461	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942877	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/Configuration.properties
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942878	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/Initial.properties
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942879	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/ServerLockManager.properties
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942879	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/ClientLockManager.properties
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942879	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942879	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/server/OPSSInitializer.properties
+**** info	Tue Aug 15 11:32:22 +05:30 2017	1502776942880	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/GSACacheServerManager.properties
+**** debug	Tue Aug 15 11:32:26 +05:30 2017	1502776946605	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:26 +05:30 2017	1502776946605	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:27 +05:30 2017	1502776947816	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:27 +05:30 2017	1502776947816	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:28 +05:30 2017	1502776948419	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:28 +05:30 2017	1502776948419	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:29 +05:30 2017	1502776949269	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:29 +05:30 2017	1502776949269	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:29 +05:30 2017	1502776949755	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:29 +05:30 2017	1502776949755	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:32:30 +05:30 2017	1502776950346	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:30 +05:30 2017	1502776950347	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:32:30 +05:30 2017	1502776950347	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/Configuration.properties
+**** info	Tue Aug 15 11:32:30 +05:30 2017	1502776950351	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/Initial.properties
+**** debug	Tue Aug 15 11:32:31 +05:30 2017	1502776951122	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:32:31 +05:30 2017	1502776951122	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951124	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/ServerLockManager.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951133	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/ClientLockManager.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951137	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951141	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/server/OPSSInitializer.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951148	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/GSACacheServerManager.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/Initial.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/SMTPEmail.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/userprofiling/PersonalizationRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951199	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/search/config/LanguageDimensionService.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/servlet/dafpipeline/AccessControlServlet.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager_production.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/seo/SEORepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/epub/DeploymentAgent.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/ApplicationConfiguration.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/locations/LocationRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/multisite/SiteRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/tracking/UsageTrackingService.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951200	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/GSAInvalidatorService.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/epub/file/ConfigFileSystem.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/servlet/dafpipeline/DynamoHandler.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/catalog/ProductCatalog.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/repository/dynamic/DynamicMetadataRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/content/ContentManagementRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/servlet/adminpipeline/AdminHandler.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/pricing/priceLists/PriceLists.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951201	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/Initial.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951204	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951207	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/SMTPEmail.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951210	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951212	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/userprofiling/PersonalizationRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951217	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951220	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951223	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951226	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951233	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951237	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/search/config/LanguageDimensionService.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951240	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/servlet/dafpipeline/AccessControlServlet.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951243	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/GSACacheClientManager_production.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951246	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/seo/SEORepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951251	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/epub/DeploymentAgent.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951254	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/endeca/ApplicationConfiguration.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951256	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/commerce/locations/LocationRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951258	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/GSACacheClientManager.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951265	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951268	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/multisite/SiteRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951270	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/tracking/UsageTrackingService.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951274	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/service/GSAInvalidatorService.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951276	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/epub/file/ConfigFileSystem.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951278	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/servlet/dafpipeline/DynamoHandler.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951281	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/commerce/catalog/ProductCatalog.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951286	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/repository/dynamic/DynamicMetadataRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951288	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/content/ContentManagementRepository.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951291	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/dynamo/servlet/adminpipeline/AdminHandler.properties
+**** info	Tue Aug 15 11:32:31 +05:30 2017	1502776951293	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopProduction/localconfig/atg/commerce/pricing/priceLists/PriceLists.properties
+**** debug	Tue Aug 15 11:33:12 +05:30 2017	1502776992507	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:33:12 +05:30 2017	1502776992507	/cim/framework/ui/TextDisplay	ModuleNameValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:33:12 +05:30 2017	1502776992508	/cim/framework/ui/TextDisplay	ModuleNotInListValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:33:12 +05:30 2017	1502776992508	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024331	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/servlet/dafpipeline/AccessControlServlet.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file atg/dynamo/service/jdbc/JTDataSource_agent.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_agent.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file atg/dynamo/service/jdbc/JTDataSource_reporting.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_reporting.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/seo/SEORepository_production.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/seo/SEORepository.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024332	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/epub/DeploymentAgent.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024333	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024333	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager_production.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024333	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager_agent.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024333	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024333	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024334	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024334	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024334	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/multisite/SiteRepository.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024334	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/multisite/SiteRepository_production.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024334	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/locations/LocationRepository.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024334	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/dynamo/service/SMTPEmail.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024335	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/svc/ui/framework/ServiceFrameworkRepository_read.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024335	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file Initial.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024337	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/userprofiling/textsearch/ProfileOutputConfig.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024337	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/textsearch/OrderOutputConfig.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024337	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/textsearch/client/SearchClient.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024337	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/custsvc/util/CSRConfigurator.properties
+**** Warning	Tue Aug 15 11:33:44 +05:30 2017	1502777024337	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	The defaultSiteId property is set to null.
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024338	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/pricing/priceLists/PriceLists.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024338	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/catalog/ProductCatalog.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024338	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg//repository/dynamic/DynamicMetadataRepository.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024338	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/content/ContentManagementRepository.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024338	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/commerce/custsvc/catalog/endeca/Configuration.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024338	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024339	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/ApplicationConfiguration.properties
+**** Warning	Tue Aug 15 11:33:44 +05:30 2017	1502777024339	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	The workbenchHostName property is set to null.
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024339	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:33:44 +05:30 2017	1502777024340	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	Adding property file /atg/endeca/assembler/cartridge/manager/DefaultFileStoreFactory.properties
+**** Warning	Tue Aug 15 11:33:44 +05:30 2017	1502777024340	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigurationTemplate	The configurationPath property is set to null.
+**** debug	Tue Aug 15 11:33:47 +05:30 2017	1502777027365	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:33:49 +05:30 2017	1502777029189	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:33:49 +05:30 2017	1502777029189	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:33:50 +05:30 2017	1502777030316	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:33:50 +05:30 2017	1502777030316	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:33:51 +05:30 2017	1502777031095	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:33:51 +05:30 2017	1502777031095	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:33:55 +05:30 2017	1502777035004	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:12 +05:30 2017	1502777052917	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:15 +05:30 2017	1502777055772	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:16 +05:30 2017	1502777056728	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:16 +05:30 2017	1502777056728	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:17 +05:30 2017	1502777057837	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:17 +05:30 2017	1502777057837	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:18 +05:30 2017	1502777058734	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:18 +05:30 2017	1502777058735	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:19 +05:30 2017	1502777059807	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:19 +05:30 2017	1502777059807	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:21 +05:30 2017	1502777061463	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:21 +05:30 2017	1502777061463	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:26 +05:30 2017	1502777066833	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:26 +05:30 2017	1502777066833	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:35 +05:30 2017	1502777075255	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:35 +05:30 2017	1502777075255	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:36 +05:30 2017	1502777076794	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:36 +05:30 2017	1502777076794	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:34:41 +05:30 2017	1502777081049	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:34:41 +05:30 2017	1502777081049	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:38:39 +05:30 2017	1502777319390	/cim/framework/ui/TextDisplay	CannotBeBlankValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:38:39 +05:30 2017	1502777319391	/cim/framework/ui/TextDisplay	continue processing is true
+**** Warning	Tue Aug 15 11:38:39 +05:30 2017	1502777319399	atg.cim.worker.status.StatusUpdateValidator	Status id svcagent-ServerInstanceTypeConfigurationTemplate is unknown.
+**** debug	Tue Aug 15 11:40:24 +05:30 2017	1502777424046	/cim/framework/ui/TextDisplay	ServerInstanceNotInListValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:24 +05:30 2017	1502777424047	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:40:24 +05:30 2017	1502777424507	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/Configuration.properties
+**** info	Tue Aug 15 11:40:24 +05:30 2017	1502777424509	atg.cim.productconfig.serverinstance.ServerInstanceConfigDirTemplate	Adding property file /atg/dynamo/service/ClientLockManager_agent.properties
+**** debug	Tue Aug 15 11:40:31 +05:30 2017	1502777431619	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:31 +05:30 2017	1502777431619	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:40:32 +05:30 2017	1502777432410	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:32 +05:30 2017	1502777432411	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:40:33 +05:30 2017	1502777433033	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:33 +05:30 2017	1502777433033	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:40:33 +05:30 2017	1502777433706	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:33 +05:30 2017	1502777433706	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:40:34 +05:30 2017	1502777434919	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:34 +05:30 2017	1502777434919	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:40:36 +05:30 2017	1502777436240	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:36 +05:30 2017	1502777436240	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:40:36 +05:30 2017	1502777436241	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/Configuration.properties
+**** debug	Tue Aug 15 11:40:39 +05:30 2017	1502777439969	/cim/framework/ui/TextDisplay	NoWhiteSpaceInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:39 +05:30 2017	1502777439969	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:40:42 +05:30 2017	1502777442340	/cim/framework/ui/TextDisplay	PortNumberInputValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:40:42 +05:30 2017	1502777442340	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442340	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/ClientLockManager_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442404	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/svc/ui/framework/ServiceFrameworkRepository_read.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/seo/SEORepository_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/textsearch/client/SearchClient.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/SMTPEmail.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/multisite/SiteRepository_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource_reporting.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/JTDataSource_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442405	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/servlet/dafpipeline/AccessControlServlet.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/assembler/cartridge/manager/DefaultFileStoreFactory.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_reporting.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/seo/SEORepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/epub/DeploymentAgent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/ApplicationConfiguration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/jdbc/DirectJTDataSource_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/locations/LocationRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/GSACacheClientManager.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/multisite/SiteRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/textsearch/OrderOutputConfig.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/custsvc/catalog/endeca/Configuration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/userprofiling/textsearch/ProfileOutputConfig.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/catalog/ProductCatalog.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/repository/dynamic/DynamicMetadataRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442406	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/content/ContentManagementRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442407	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /Initial.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442407	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/custsvc/util/CSRConfigurator.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442407	atg.cim.productconfig.serverinstance.ServerInstanceTypeConfigDirTemplate	Adding property file /atg/commerce/pricing/priceLists/PriceLists.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442407	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/svc/ui/framework/ServiceFrameworkRepository_read.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442410	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/seo/SEORepository_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442413	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/textsearch/client/SearchClient.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442415	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/GSACacheClientManager_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442417	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/SwitchingDataSourceB.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442421	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/SMTPEmail.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442423	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442426	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/ClusterName.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442432	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/JTDataSource.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442435	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/multisite/SiteRepository_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442439	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/SwitchingDataSourceA.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442442	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442449	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/JTDataSource_reporting.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442451	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/JTDataSource_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442453	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/endeca/assembler/AssemblerApplicationConfiguration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442455	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/servlet/dafpipeline/AccessControlServlet.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442458	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/endeca/assembler/cartridge/manager/DefaultFileStoreFactory.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442461	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/GSACacheClientManager_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442463	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource_reporting.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442465	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/seo/SEORepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442471	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/epub/DeploymentAgent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442473	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/endeca/ApplicationConfiguration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442475	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/jdbc/DirectJTDataSource_agent.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442482	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/commerce/locations/LocationRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442485	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/GSACacheClientManager.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442487	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/endeca/index/IndexingApplicationConfiguration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442489	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/multisite/SiteRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442492	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/dynamo/service/ClientLockManager_production.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442494	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/commerce/textsearch/OrderOutputConfig.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442497	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/commerce/custsvc/catalog/endeca/Configuration.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442500	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/userprofiling/textsearch/ProfileOutputConfig.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442505	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/commerce/catalog/ProductCatalog.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442508	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/repository/dynamic/DynamicMetadataRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442510	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/content/ContentManagementRepository.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442517	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/Initial.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442519	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/commerce/custsvc/util/CSRConfigurator.properties
+**** info	Tue Aug 15 11:40:42 +05:30 2017	1502777442522	atg.cim.worker.common.MapPropertyFileCreatorTask	Wrote File /home/jitendra/ATG/ATG11.2/home/../home/servers/ShopAgent/localconfig/atg/commerce/pricing/priceLists/PriceLists.properties
+**** debug	Tue Aug 15 11:41:34 +05:30 2017	1502777494512	/cim/framework/ui/TextDisplay	EarSuffixValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:41:34 +05:30 2017	1502777494512	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:41:41 +05:30 2017	1502777501159	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502767	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502767	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502775	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502775	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration/standalone.xml to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration/ShopAgent.xml
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502787	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502787	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502787	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502801	atg.cim.productconfig.deploy.jboss.DeployEarToJbossTask	Executing runAssembler for ShopAgent
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502804	atg.cim.productconfig.deploy.jboss.DeployEarToJbossTask	runAssembler -server "ShopAgent" -jboss  "/home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear"  -m DafEar.Admin BIZUI Service.Ticketing Fulfillment DCS.AbandonedOrderServices DCS-CSR-UI DCS.TextSearch.Order.LiveIndex ContentMgmt.Endeca.Index DCS.Endeca.Index DCS-CSR-UI.Endeca REST 
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502833	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502833	atg.cim.task.ant.utility.AntLogger	exec.runAssembler.sh.file.nonwindows:
+**** info	Tue Aug 15 11:41:42 +05:30 2017	1502777502961	atg.cim.task.ant.utility.AntLogger	     [exec] Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+**** info	Tue Aug 15 11:41:43 +05:30 2017	1502777503206	atg.cim.task.ant.utility.AntLogger	     [exec] The following installed Oracle Commerce components are being used to launch:
+**** info	Tue Aug 15 11:41:43 +05:30 2017	1502777503207	atg.cim.task.ant.utility.AntLogger	     [exec]   ATGPlatform version 11.2 installed at /home/jitendra/ATG/ATG11.2
+**** info	Tue Aug 15 11:41:43 +05:30 2017	1502777503207	atg.cim.task.ant.utility.AntLogger	     [exec] 
+**** info	Tue Aug 15 11:41:43 +05:30 2017	1502777503393	atg.cim.task.ant.utility.AntLogger	     [exec] Assembly started.
+**** info	Tue Aug 15 11:41:43 +05:30 2017	1502777503393	atg.cim.task.ant.utility.AntLogger	     [exec] Target application is /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear.
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505447	atg.cim.task.ant.utility.AntLogger	     [exec]  Creating exploded ear file /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear.
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505447	atg.cim.task.ant.utility.AntLogger	     [exec] Initializing...
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505448	atg.cim.task.ant.utility.AntLogger	     [exec]  Before make meta-inf file.
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505448	atg.cim.task.ant.utility.AntLogger	     [exec] Making meta-inf file /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/META-INF
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505448	atg.cim.task.ant.utility.AntLogger	     [exec] Creating application.xml...
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505682	atg.cim.task.ant.utility.AntLogger	     [exec]  Creating Ear file MANIFEST...
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505683	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes...
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505703	atg.cim.task.ant.utility.AntLogger	     [exec] Importing classes for module DafEar
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505703	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DafEar.Admin
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505703	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DafEar.base
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505711	atg.cim.task.ant.utility.AntLogger	     [exec]       Importing classes for module DCS-CSR-UI.Endeca
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505711	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS-CSR-UI
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505735	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DCS-CSR
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505766	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Service.Ticketing
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505767	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Service-UI.Framework.Agent
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505790	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Service.Framework.Agent
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505803	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Service-UI.Framework
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505803	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module PubPortlet
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505823	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DPS-UI.Versioned
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505823	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS-UI
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505837	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module AssetUI
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505862	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module BCC.Versioned
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505871	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module BCC.InternalUsers
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505872	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS-UI.AccessControl
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505872	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module BCC
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505917	atg.cim.task.ant.utility.AntLogger	     [exec]      Importing classes for module REST
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505938	atg.cim.task.ant.utility.AntLogger	     [exec]       Importing classes for module Service.Framework.UI
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505946	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Service.Framework
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505984	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DSS.InternalUsers.ACC
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505984	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Agent
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505997	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Service.Response.InternalUsers
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505997	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Ticketing.InternalUsers
+**** info	Tue Aug 15 11:41:45 +05:30 2017	1502777505997	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module BIZUI
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506035	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DPS.Versioned
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506035	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DAS.Versioned
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506035	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module WebUI.Preview.Versioned
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506035	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Publishing.base
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506099	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DSS.InternalUsers
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506099	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Service.Response
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506121	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Ticketing
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506139	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module WebUI.Management
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506139	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module WebUI
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506159	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module CAF
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506219	atg.cim.task.ant.utility.AntLogger	     [exec]      Importing classes for module PublishingAgent.DeployedConfig
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506219	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module PublishingAgent.base
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506287	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DCS-CSR.Management
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506287	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DCS.Endeca.Assembler
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506287	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506288	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Base
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506288	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.TextSearch.Order.LiveIndex
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506288	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.TextSearch.Order.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506288	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.AbandonedOrderServices
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506288	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Fulfillment
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506288	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506450	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module ContentMgmt.Endeca.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506450	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module ContentMgmt
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506451	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DSS
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506531	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DPS.InternalUsers.ACC
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.InternalUsers
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.LogicalOrganizations
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Agent.ExternalUsers
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DPS.Endeca.Assembler
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.TextSearch.LiveIndex
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.TextSearch.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506532	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506634	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.TextSearch.LiveIndex
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506642	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.TextSearch.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506653	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.TextSearch.Base
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506654	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Endeca.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506685	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.Search.Index
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506701	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Search.Base
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506726	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAS-UI
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506821	atg.cim.task.ant.utility.AntLogger	     [exec]     Importing classes for module WebUI.Preview
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506821	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module FlexUI
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506879	atg.cim.task.ant.utility.AntLogger	     [exec]          Importing classes for module RL
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506879	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Deployment
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506880	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DAF.DeploymentAgent
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506880	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DAF.Endeca.Assembler
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506956	atg.cim.task.ant.utility.AntLogger	     [exec]      Importing classes for module DAF.Endeca.Base
+**** info	Tue Aug 15 11:41:46 +05:30 2017	1502777506965	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAS
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507617	atg.cim.task.ant.utility.AntLogger	     [exec]   Ignoring classpath entry lib/servlet.jar from module DAS
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507617	atg.cim.task.ant.utility.AntLogger	     [exec]  Ignoring classpath entry lib/jsp-api.jar from module DAS
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507647	atg.cim.task.ant.utility.AntLogger	     [exec]        Importing classes for module DAF
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507649	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing J2EE module atg-admin.war declared in DafEar.Admin
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507685	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/atg_admin.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507805	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-bootstrap.war declared in DafEar.base
+**** info	Tue Aug 15 11:41:47 +05:30 2017	1502777507830	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/atg_bootstrap.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:48 +05:30 2017	1502777508337	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-bootstrap-ejb.jar declared in DafEar.base
+**** info	Tue Aug 15 11:41:48 +05:30 2017	1502777508346	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module DCS-CSR-UI.war declared in DCS-CSR-UI
+**** info	Tue Aug 15 11:41:50 +05:30 2017	1502777510226	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/DCS-CSR-UI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:50 +05:30 2017	1502777510309	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module ServiceFramework.war declared in Service-UI.Framework.Agent
+**** info	Tue Aug 15 11:41:51 +05:30 2017	1502777511288	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/ServiceFramework.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:51 +05:30 2017	1502777511322	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module portlets.war declared in PubPortlet
+**** info	Tue Aug 15 11:41:52 +05:30 2017	1502777512808	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/_PubPortlet_sPubPortlets.ear_sportlets.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:52 +05:30 2017	1502777512855	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module AssetBrowse.war declared in PubPortlet
+**** info	Tue Aug 15 11:41:52 +05:30 2017	1502777512987	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/_PubPortlet_sPubPortlets.ear_sAssetBrowse.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:53 +05:30 2017	1502777513004	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module DPS-UI.war declared in DPS-UI
+**** info	Tue Aug 15 11:41:53 +05:30 2017	1502777513554	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/DPS-UI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:53 +05:30 2017	1502777513562	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module AssetUI.war declared in AssetUI
+**** info	Tue Aug 15 11:41:53 +05:30 2017	1502777513803	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/AssetUI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:53 +05:30 2017	1502777513811	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module AssetManager.war declared in AssetUI
+**** info	Tue Aug 15 11:41:54 +05:30 2017	1502777514666	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/AssetManager.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:54 +05:30 2017	1502777514682	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module ControlCenter.war declared in BCC
+**** info	Tue Aug 15 11:41:55 +05:30 2017	1502777515744	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/ControlCenter.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:55 +05:30 2017	1502777515754	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-rest-web-1.0.war declared in REST
+**** info	Tue Aug 15 11:41:55 +05:30 2017	1502777515755	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/atg-rest-web-1.0.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:56 +05:30 2017	1502777516029	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module bizui.war declared in BIZUI
+**** info	Tue Aug 15 11:41:56 +05:30 2017	1502777516322	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/bizui.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:56 +05:30 2017	1502777516347	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module WebUI.war declared in WebUI
+**** info	Tue Aug 15 11:41:57 +05:30 2017	1502777517855	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/WebUI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:57 +05:30 2017	1502777517861	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module dojo-1.war declared in WebUI
+**** info	Tue Aug 15 11:41:59 +05:30 2017	1502777519220	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/dojo-1.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:41:59 +05:30 2017	1502777519228	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module dojo-1-6-2.war declared in WebUI
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522274	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/dojo-1-6-2.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522280	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module CAF.war declared in CAF
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522412	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/CAF.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522418	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module WebUI-Preview.war declared in WebUI.Preview
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522439	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/WebUI-Preview.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522442	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module FlexUI.war declared in FlexUI
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522521	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/FlexUI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522524	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module web-app.war declared in RL
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522569	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/web-app.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522814	atg.cim.task.ant.utility.AntLogger	     [exec]   Assembly took 19.432 seconds.
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522894	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522894	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:42:02 +05:30 2017	1502777522894	atg.cim.task.ant.utility.AntLogger	Total time: 20 seconds
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528641	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528641	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528642	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528642	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /usr/share/java/mysql.jar to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/mysql.jar
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528654	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528654	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528654	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528663	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528663	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528663	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/atglib
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528663	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /usr/share/java/mysql.jar to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopAgent/ShopAgent.ear/atglib/mysql.jar
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528664	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528664	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:42:08 +05:30 2017	1502777528664	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** debug	Tue Aug 15 11:44:49 +05:30 2017	1502777689613	/cim/framework/ui/TextDisplay	EarSuffixValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:44:49 +05:30 2017	1502777689613	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:44:53 +05:30 2017	1502777693896	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration/standalone.xml to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration/ShopProduction.xml
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695205	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695210	atg.cim.productconfig.deploy.jboss.DeployEarToJbossTask	Executing runAssembler for ShopProduction
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695218	atg.cim.productconfig.deploy.jboss.DeployEarToJbossTask	runAssembler -server "ShopProduction" -jboss  "/home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear"  -m DafEar.Admin DPS DSS ContentMgmt DCS.AbandonedOrderServices DCS.TextSearch.Order.Index DCS.PublishingAgent ContentMgmt.Endeca.Index DCS.Endeca.Index PublishingAgent DCS.Endeca.Index.SKUIndexing REST Shop.StoreFront 
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695226	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695226	atg.cim.task.ant.utility.AntLogger	exec.runAssembler.sh.file.nonwindows:
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695300	atg.cim.task.ant.utility.AntLogger	     [exec] Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695514	atg.cim.task.ant.utility.AntLogger	     [exec] The following installed Oracle Commerce components are being used to launch:
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695514	atg.cim.task.ant.utility.AntLogger	     [exec]   ATGPlatform version 11.2 installed at /home/jitendra/ATG/ATG11.2
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695514	atg.cim.task.ant.utility.AntLogger	     [exec] 
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695625	atg.cim.task.ant.utility.AntLogger	     [exec] Assembly started.
+**** info	Tue Aug 15 11:44:55 +05:30 2017	1502777695625	atg.cim.task.ant.utility.AntLogger	     [exec] Target application is /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear.
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696654	atg.cim.task.ant.utility.AntLogger	     [exec]  Creating exploded ear file /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear.
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696654	atg.cim.task.ant.utility.AntLogger	     [exec] Initializing...
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696655	atg.cim.task.ant.utility.AntLogger	     [exec]  Before make meta-inf file.
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696655	atg.cim.task.ant.utility.AntLogger	     [exec] Making meta-inf file /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/META-INF
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696655	atg.cim.task.ant.utility.AntLogger	     [exec] Creating application.xml...
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696709	atg.cim.task.ant.utility.AntLogger	     [exec]  Creating Ear file MANIFEST...
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696709	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes...
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696714	atg.cim.task.ant.utility.AntLogger	     [exec] Importing classes for module DafEar
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696714	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DafEar.Admin
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696714	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DafEar.base
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696715	atg.cim.task.ant.utility.AntLogger	     [exec]       Importing classes for module Shop.StoreFront
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696715	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696715	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Shop.EStore
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696715	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:44:56 +05:30 2017	1502777696715	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Shop.core
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697002	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module Shop.Endeca.Assembler
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Assembler
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Shop.Endeca.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Shop.Endeca.Base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Index.SKUIndexing
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697003	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.PublishingAgent
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697016	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DCS.TextSearch.Order.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697016	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.AbandonedOrderServices
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697016	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697022	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module ContentMgmt.Endeca.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697022	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module ContentMgmt
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697023	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module REST
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697025	atg.cim.task.ant.utility.AntLogger	     [exec]       Importing classes for module PublishingAgent
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697025	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module PublishingAgent.base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697027	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DSS
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697030	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DPS.Endeca.Assembler
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697030	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.TextSearch.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697030	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697034	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.Endeca.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697035	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.Search.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697036	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Search.Base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697037	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.TextSearch.Index
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697037	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.TextSearch.Base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697037	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAS-UI
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697041	atg.cim.task.ant.utility.AntLogger	     [exec]     Importing classes for module DAF.Endeca.Assembler
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697044	atg.cim.task.ant.utility.AntLogger	     [exec]      Importing classes for module DAF.Endeca.Base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697044	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.DeploymentAgent
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697044	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DAS
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697069	atg.cim.task.ant.utility.AntLogger	     [exec]   Ignoring classpath entry lib/servlet.jar from module DAS
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697069	atg.cim.task.ant.utility.AntLogger	     [exec]  Ignoring classpath entry lib/jsp-api.jar from module DAS
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697070	atg.cim.task.ant.utility.AntLogger	     [exec]        Importing classes for module DAF
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697072	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing J2EE module atg-admin.war declared in DafEar.Admin
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697094	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/atg_admin.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697173	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-bootstrap.war declared in DafEar.base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697181	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/atg_bootstrap.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697667	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-bootstrap-ejb.jar declared in DafEar.base
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697674	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module store.war declared in Shop.StoreFront
+**** info	Tue Aug 15 11:44:57 +05:30 2017	1502777697930	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/store.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:44:58 +05:30 2017	1502777698074	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-rest-web-1.0.war declared in REST
+**** info	Tue Aug 15 11:44:58 +05:30 2017	1502777698075	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/atg-rest-web-1.0.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:44:58 +05:30 2017	1502777698207	atg.cim.task.ant.utility.AntLogger	     [exec]   Assembly took 2.591 seconds.
+**** info	Tue Aug 15 11:44:58 +05:30 2017	1502777698223	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:44:58 +05:30 2017	1502777698223	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:44:58 +05:30 2017	1502777698223	atg.cim.task.ant.utility.AntLogger	Total time: 3 seconds
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717202	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717202	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717202	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717203	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /usr/share/java/mysql.jar to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/mysql.jar
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717205	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717205	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717205	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717216	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717216	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717217	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/atglib
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717217	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /usr/share/java/mysql.jar to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopProduction/ShopProduction.ear/atglib/mysql.jar
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717220	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717220	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:45:17 +05:30 2017	1502777717220	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** debug	Tue Aug 15 11:45:48 +05:30 2017	1502777748337	/cim/framework/ui/TextDisplay	EarSuffixValidator passed POSTINPUT validation
+**** debug	Tue Aug 15 11:45:48 +05:30 2017	1502777748337	/cim/framework/ui/TextDisplay	continue processing is true
+**** debug	Tue Aug 15 11:45:52 +05:30 2017	1502777752984	/cim/framework/ui/TextDisplay	continue processing is true
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754246	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754246	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754247	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754247	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration/standalone.xml to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/configuration/ShopPublishing.xml
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754247	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754247	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754247	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754256	atg.cim.productconfig.deploy.jboss.DeployEarToJbossTask	Executing runAssembler for ShopPublishing
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754263	atg.cim.productconfig.deploy.jboss.DeployEarToJbossTask	runAssembler -server "ShopPublishing" -jboss  "/home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear"  -m DCS-UI.Versioned BIZUI PubPortlet DafEar.Admin ContentMgmt.Versioned DCS-UI.SiteAdmin.Versioned SiteAdmin.Versioned DCS-CSR.Management DCS.TextSearch.Order.Index DCS.Versioned ContentMgmt.Endeca.Index.Versioned DCS.Endeca.Index.Versioned DCS.Endeca.Index.SKUIndexing Shop.EStore.Versioned 
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754267	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754267	atg.cim.task.ant.utility.AntLogger	exec.runAssembler.sh.file.nonwindows:
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754347	atg.cim.task.ant.utility.AntLogger	     [exec] Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754549	atg.cim.task.ant.utility.AntLogger	     [exec] The following installed Oracle Commerce components are being used to launch:
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754549	atg.cim.task.ant.utility.AntLogger	     [exec]   ATGPlatform version 11.2 installed at /home/jitendra/ATG/ATG11.2
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754549	atg.cim.task.ant.utility.AntLogger	     [exec] 
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754705	atg.cim.task.ant.utility.AntLogger	     [exec] Assembly started.
+**** info	Tue Aug 15 11:45:54 +05:30 2017	1502777754705	atg.cim.task.ant.utility.AntLogger	     [exec] Target application is /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear.
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757089	atg.cim.task.ant.utility.AntLogger	     [exec]  Creating exploded ear file /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear.
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757089	atg.cim.task.ant.utility.AntLogger	     [exec] Initializing...
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757090	atg.cim.task.ant.utility.AntLogger	     [exec]  Before make meta-inf file.
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757090	atg.cim.task.ant.utility.AntLogger	     [exec] Making meta-inf file /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/META-INF
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757090	atg.cim.task.ant.utility.AntLogger	     [exec] Creating application.xml...
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757264	atg.cim.task.ant.utility.AntLogger	     [exec]  Creating Ear file MANIFEST...
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757264	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes...
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757270	atg.cim.task.ant.utility.AntLogger	     [exec] Importing classes for module DafEar
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757271	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DafEar.Admin
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757271	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DafEar.base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757272	atg.cim.task.ant.utility.AntLogger	     [exec]       Importing classes for module Shop.EStore.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757272	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757272	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Shop.core
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module Shop.Endeca.Base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module Shop.Endeca.Assembler
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec] Warning. Classpath entry bin not found.
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Assembler
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Index.SKUIndexing
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Index.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Endeca.Base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS-UI.SiteAdmin.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS-UI.SiteAdmin
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757286	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS-UI.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757303	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DCS.DynamicCustomCatalogs.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757303	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.DynamicCustomCatalogs
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757303	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757303	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS.TextSearch.Order.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757303	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DCS-CSR.Management
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757304	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DCS-UI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757321	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DCS
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757327	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module ContentMgmt.Endeca.Index.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757328	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module ContentMgmt.Endeca.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757328	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module ContentMgmt-UI.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757328	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module ContentMgmt.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757328	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module ContentMgmt-UI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757328	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module ContentMgmt
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757329	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Endeca.Index.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757329	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module SiteAdmin.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757329	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module PubPortlet
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757329	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DPS-UI.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757329	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757329	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DAS.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757330	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module BCC.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757330	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module WebUI.Preview.Versioned
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757334	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module AssetUI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757334	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module BIZUI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757334	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module Publishing.base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757335	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module BCC.InternalUsers
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757335	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DSS.InternalUsers
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757335	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module SiteAdmin
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757354	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DPS-UI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757355	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DPS-UI.AccessControl
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757356	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module BCC
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757358	atg.cim.task.ant.utility.AntLogger	     [exec]      Importing classes for module WebUI.Management
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757358	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module WebUI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757359	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module REST
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757361	atg.cim.task.ant.utility.AntLogger	     [exec]       Importing classes for module DSS
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757364	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DPS.Endeca.Assembler
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757364	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.InternalUsers
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757364	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS.TextSearch.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757364	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module DPS
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757369	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.Endeca.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757370	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.Search.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757371	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Search.Base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757373	atg.cim.task.ant.utility.AntLogger	     [exec]    Importing classes for module DAF.TextSearch.Index
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757373	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.TextSearch.Base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757374	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAS-UI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757379	atg.cim.task.ant.utility.AntLogger	     [exec]     Importing classes for module DAF.Endeca.Assembler
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757383	atg.cim.task.ant.utility.AntLogger	     [exec]      Importing classes for module DAF.Endeca.Base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757383	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module RL
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757383	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module DAF.Deployment
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757383	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing classes for module WebUI.Preview
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757383	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing classes for module FlexUI
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757387	atg.cim.task.ant.utility.AntLogger	     [exec]          Importing classes for module DAS
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757420	atg.cim.task.ant.utility.AntLogger	     [exec]   Ignoring classpath entry lib/servlet.jar from module DAS
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757420	atg.cim.task.ant.utility.AntLogger	     [exec]  Ignoring classpath entry lib/jsp-api.jar from module DAS
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757422	atg.cim.task.ant.utility.AntLogger	     [exec]        Importing classes for module DAF
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757424	atg.cim.task.ant.utility.AntLogger	     [exec]   Importing J2EE module atg-admin.war declared in DafEar.Admin
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757442	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/atg_admin.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757522	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-bootstrap.war declared in DafEar.base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757530	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/atg_bootstrap.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757968	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-bootstrap-ejb.jar declared in DafEar.base
+**** info	Tue Aug 15 11:45:57 +05:30 2017	1502777757983	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module DCS-UI-Versioned.war declared in DCS-UI.Versioned
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758142	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/DCS-UI-Versioned.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758170	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module Merchandising.war declared in DCS-UI
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758267	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/Merchandising.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758312	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module ContentMgmt-UI.war declared in ContentMgmt-UI
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758400	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/ContentMgmt-UI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758406	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module portlets.war declared in PubPortlet
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758522	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/_PubPortlet_sPubPortlets.ear_sportlets.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758560	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module AssetBrowse.war declared in PubPortlet
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758570	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/_PubPortlet_sPubPortlets.ear_sAssetBrowse.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758580	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module AssetUI.war declared in AssetUI
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758612	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/AssetUI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758619	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module AssetManager.war declared in AssetUI
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758714	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/AssetManager.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758721	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module bizui.war declared in BIZUI
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758781	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/bizui.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758815	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module SiteAdmin.war declared in SiteAdmin
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758881	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/SiteAdmin.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758889	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module DPS-UI.war declared in DPS-UI
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758909	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/DPS-UI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758914	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module ControlCenter.war declared in BCC
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758980	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/ControlCenter.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:58 +05:30 2017	1502777758994	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module WebUI.war declared in WebUI
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759155	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/WebUI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759165	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module dojo-1.war declared in WebUI
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759338	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/dojo-1.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759345	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module dojo-1-6-2.war declared in WebUI
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759710	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/dojo-1-6-2.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759714	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module atg-rest-web-1.0.war declared in REST
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759716	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/atg-rest-web-1.0.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759958	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module web-app.war declared in RL
+**** info	Tue Aug 15 11:45:59 +05:30 2017	1502777759961	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/web-app.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760230	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module WebUI-Preview.war declared in WebUI.Preview
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760231	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/WebUI-Preview.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760237	atg.cim.task.ant.utility.AntLogger	     [exec]  Importing J2EE module FlexUI.war declared in FlexUI
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760241	atg.cim.task.ant.utility.AntLogger	     [exec]   Parsing /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/FlexUI.war/WEB-INF/web.xml
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760253	atg.cim.task.ant.utility.AntLogger	     [exec]   Assembly took 5.556 seconds.
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760270	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760270	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:46:00 +05:30 2017	1502777760270	atg.cim.task.ant.utility.AntLogger	Total time: 6 seconds
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770112	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770112	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770112	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770112	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /usr/share/java/mysql.jar to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/mysql.jar
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770113	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770113	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770113	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770120	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770120	atg.cim.task.ant.utility.AntLogger	file.copy:
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770120	atg.cim.task.ant.utility.AntLogger	     [copy] Copying 1 file to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/atglib
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770121	atg.cim.task.ant.utility.AntLogger	     [copy] Copying /usr/share/java/mysql.jar to /home/jitendra/InstalledSoftwares/jboss-eap-6.4/standalone/deployments/ShopPublishing/ShopPublishing.ear/atglib/mysql.jar
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770122	atg.cim.task.ant.utility.AntLogger	
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770122	atg.cim.task.ant.utility.AntLogger	BUILD SUCCESSFUL
+**** info	Tue Aug 15 11:46:10 +05:30 2017	1502777770122	atg.cim.task.ant.utility.AntLogger	Total time: 0 seconds

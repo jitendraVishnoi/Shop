@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+ATG-Module-Uri: content
+ATG-Context-Root: shop
+ATG-Module-Version: StaticContent.war
+
